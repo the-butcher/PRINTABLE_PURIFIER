@@ -1,1 +1,0 @@
-this will be a page semi-automatically created from the hierarchy of the project
