@@ -30,8 +30,14 @@
 
 ---
 
-## [unit_nano](https://github.com/the-butcher/PRINTABLE_PURIFIER/tree/master/unit_purifier/unit_inner/unit_nano)
+## [Arduino Nano (unit_nano)](https://github.com/the-butcher/PRINTABLE_PURIFIER/tree/master/unit_purifier/unit_inner/unit_nano)
 
+|   |   |
+| --- | --- |
+| Description | The plate holding the Arduino Nano.  |
+| Type | electronic |
+
+---
 ![unit_nano](https://github.com/the-butcher/PRINTABLE_PURIFIER/blob/master/unit_purifier/unit_inner/unit_nano.gif?raw=true)
 
 ---
@@ -52,7 +58,7 @@
 
 |   |   |
 | --- | --- |
-| Description | The plating holding the sensors.  Please step into folder to find further instructions. |
+| Description | The plate holding the sensors.  Please step into folder to find further instructions. |
 | Type | assembly |
 
 ---

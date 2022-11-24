@@ -1,0 +1,11 @@
+{
+    "id": "unit_nano",
+    "title": "Arduino Nano",
+    "description": "The plate holding the Arduino Nano.",
+    "postprocessing": "",
+    "improvements": "",
+    "parts": [
+        "print_holder_nano_1",
+        "print_holder_nano_2"
+    ]
+}

@@ -1,7 +1,7 @@
 {
     "id": "unit_sensors",
     "title": "Sensors",
-    "description": "The plating holding the sensors.",
+    "description": "The plate holding the sensors.",
     "postprocessing": "",
     "improvements": "",
     "parts": [

@@ -2,7 +2,7 @@
 
 |   |   |
 | --- | --- |
-| Description | The plating holding the sensors.  |
+| Description | The plate holding the sensors.  |
 | Type | assembly |
 
 ---
