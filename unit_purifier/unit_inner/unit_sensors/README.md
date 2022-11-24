@@ -11,7 +11,7 @@
 |   |   |
 | --- | --- |
 | Description | The main plate holding Dust, Temperature and Vibration Sensor.  |
-| Type | electronic |
+| Type | 3D print |
 
 ---
 ![print_holder_sensors_1](https://github.com/the-butcher/PRINTABLE_PURIFIER/blob/master/unit_purifier/unit_inner/unit_sensors/print_holder_sensors_1.gif?raw=true)
@@ -23,7 +23,7 @@
 |   |   |
 | --- | --- |
 | Description | Holding plate for the Vibration sensor.  |
-| Type | electronic |
+| Type | 3D print |
 
 ---
 ![print_holder_sensors_2](https://github.com/the-butcher/PRINTABLE_PURIFIER/blob/master/unit_purifier/unit_inner/unit_sensors/print_holder_sensors_2.gif?raw=true)
@@ -35,7 +35,7 @@
 |   |   |
 | --- | --- |
 | Description | Upper housing of the dust sensor.  |
-| Type | electronic |
+| Type | 3D print |
 
 ---
 ![print_holder_sensors_3](https://github.com/the-butcher/PRINTABLE_PURIFIER/blob/master/unit_purifier/unit_inner/unit_sensors/print_holder_sensors_3.gif?raw=true)
@@ -47,7 +47,7 @@
 |   |   |
 | --- | --- |
 | Description | Lower housing of the dust sensor.  |
-| Type | electronic |
+| Type | 3D print |
 
 ---
 ![print_holder_sensors_4](https://github.com/the-butcher/PRINTABLE_PURIFIER/blob/master/unit_purifier/unit_inner/unit_sensors/print_holder_sensors_4.gif?raw=true)

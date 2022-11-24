@@ -22,8 +22,8 @@
 
 |   |   |
 | --- | --- |
-| Description | The motor assembly contains the motor, the connecting part to the impeller and a connection to the vibration sensor.  |
-| Type | electronic |
+| Description | The motor assembly contains the motor, the connecting part to the impeller and a connection to the vibration sensor.  Please step into folder to find further instructions. |
+| Type | assembly |
 
 ---
 ![unit_motor](https://github.com/the-butcher/PRINTABLE_PURIFIER/blob/master/unit_purifier/unit_inner/unit_motor.gif?raw=true)
@@ -52,8 +52,8 @@
 
 |   |   |
 | --- | --- |
-| Description | The plating holding the sensors. Please step into folder to find printable STL files.  |
-| Type | electronic |
+| Description | The plating holding the sensors. Please step into folder to find printable STL files.  Please step into folder to find further instructions. |
+| Type | assembly |
 
 ---
 ![unit_sensors](https://github.com/the-butcher/PRINTABLE_PURIFIER/blob/master/unit_purifier/unit_inner/unit_sensors.gif?raw=true)
