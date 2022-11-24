@@ -1,0 +1,12 @@
+{
+    "id": "unit_nano",
+    "title": "Arduino Nano",
+    "description": "The plate holding the Arduino Nano.",
+    "postprocessing": "",
+    "improvements": "",
+    "parts": [
+        "print_holder_power_1",
+        "print_holder_power_2",
+        "driver_l298n"
+    ]
+}

@@ -42,8 +42,14 @@
 
 ---
 
-## [unit_power](https://github.com/the-butcher/PRINTABLE_PURIFIER/tree/master/unit_purifier/unit_inner/unit_power)
+## [Arduino Nano (unit_power)](https://github.com/the-butcher/PRINTABLE_PURIFIER/tree/master/unit_purifier/unit_inner/unit_power)
 
+|   |   |
+| --- | --- |
+| Description | The plate holding the Arduino Nano.  Please step into folder to find further instructions. |
+| Type | assembly |
+
+---
 ![unit_power](https://github.com/the-butcher/PRINTABLE_PURIFIER/blob/master/unit_purifier/unit_inner/unit_power.gif?raw=true)
 
 ---

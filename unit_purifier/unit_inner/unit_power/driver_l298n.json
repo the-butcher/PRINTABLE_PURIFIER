@@ -1,0 +1,8 @@
+{
+    "id": "driver_l298n",
+    "title": "Motor driver",
+    "description": "The driver regulating motor power.",
+    "postprocessing": "",
+    "improvements": "",
+    "parts": []
+}
