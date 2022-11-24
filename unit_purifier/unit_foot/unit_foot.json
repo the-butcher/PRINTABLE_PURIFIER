@@ -1,0 +1,9 @@
+{
+    "id": "unit_foot",
+    "description": "Foot",
+    "postprocessing": "Please refer to postprocessing information of the respective parts.",
+    "improvements": "",
+    "parts": [
+        "print_outer_foot"
+    ]
+}

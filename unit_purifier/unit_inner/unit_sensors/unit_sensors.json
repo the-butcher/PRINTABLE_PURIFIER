@@ -1,0 +1,15 @@
+{
+    "id": "unit_sensors",
+    "title": "Sensors",
+    "description": "The plating holding the sensors.",
+    "postprocessing": "",
+    "improvements": "",
+    "parts": [
+        "print_holder_sensors_1",
+        "print_holder_sensors_2",
+        "print_holder_sensors_3",
+        "print_holder_sensors_4",
+        "sensor_pd_m4",
+        "sensor_dht22"
+    ]
+}

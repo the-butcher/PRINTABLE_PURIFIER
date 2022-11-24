@@ -1,0 +1,8 @@
+{
+    "id": "print_hub_1",
+    "title": "Lower part of the hub.",
+    "description": "The lower part of the impeller hub.",
+    "postprocessing": "Remove the supports. Smoothen air outlet a bit to improve air flow and reduce noise.",
+    "improvements": "Create supports that are easier to remove, especially for the motor opening. Maybe make the motor opening a little larger, i had to do some sanding in my build before the motor could be fitted.",
+    "parts": []
+}

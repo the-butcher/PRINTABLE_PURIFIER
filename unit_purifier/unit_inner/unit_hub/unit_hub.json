@@ -1,0 +1,11 @@
+{
+    "id": "unit hub",
+    "title": "Impeller hub",
+    "description": "The hub holds the motor and acts a guide for the air as it exits the filter.",
+    "postprocessing": "",
+    "improvements": "",
+    "parts": [
+        "print_hub_1",
+        "print_hub_2"
+    ]
+}

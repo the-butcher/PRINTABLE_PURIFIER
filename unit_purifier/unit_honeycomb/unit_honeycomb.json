@@ -1,0 +1,12 @@
+{
+    "id": "unit_honeycomb",
+    "title": "Case",
+    "description": "",
+    "postprocessing": "",
+    "improvements": "",
+    "parts": [
+        "print_honeycomb_1",
+        "print_honeycomb_2",
+        "print_honeycomb_3"
+    ]
+}

@@ -1,0 +1,8 @@
+{
+    "id": "print_hub_2",
+    "title": "Upper part of the hub.",
+    "description": "The upper part of the impeller hub.",
+    "postprocessing": "Remove support from the opening where the dust sensors tub passed through. Later place electric tape over the unused openings.",
+    "improvements": "",
+    "parts": []
+}

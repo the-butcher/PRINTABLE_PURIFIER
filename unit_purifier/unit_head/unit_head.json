@@ -1,0 +1,12 @@
+{
+    "id": "unit_head",
+    "description": "Head",
+    "postprocessing": "Glue print_outer_ring to print_outer_controls, sand the combined part after glue has dried to remove glue remains, spray paint for a better finish.",
+    "improvements": "When sliding the head over the hub, it does not auto center on the hub. This can lead to not enough space between the impeller and the head. I inserted 6 strips cut from a plastic bottle between head and hub for even spacing.",
+    "parts": [
+        "print_outer_connect",
+        "print_outer_controls",
+        "print_outer_outlet",
+        "print_outer_ring"
+    ]
+}

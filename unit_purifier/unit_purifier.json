@@ -1,0 +1,16 @@
+{
+    "id": "unit_purifier",
+    "title": "Printable Purifier",
+    "description": "Assembly of all parts needed to build the purifier.",
+    "postprocessing": "Please refer to postprocessing information of the respective parts.",
+    "improvements": "",
+    "parts": [
+        "unit_inner",
+        "unit_impeller",
+        "unit_cover",
+        "unit_honeycomb",
+        "unit_head",
+        "unit_foot",
+        "unit_filter"
+    ]
+}

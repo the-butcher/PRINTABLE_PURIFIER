@@ -1,0 +1,10 @@
+{
+    "id": "unit_cover",
+    "description": "Air outlet assembly.",
+    "postprocessing": "",
+    "improvements": "",
+    "parts": [
+        "print_cover_1",
+        "print_cover_2"
+    ]
+}

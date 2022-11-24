@@ -1,0 +1,8 @@
+{
+    "id": "sensor_pm_d4",
+    "title": "Dust sensor.",
+    "description": "The dust sensor is the input to the purifiers power level, together with the potentiometer setting. I used a sensor that i already had: ![PD-M4](https://github.com/the-butcher/PRINTABLE_PURIFIER/blob/master/unit_purifier/unit_inner/unit_sensors/sensor_pd_m4.png?raw=true) [PM-D4](http://www.csfan.co.kr/bbs/board.php?bo_table=products1&wr_id=15&ckattempt=2). This sensor appears not to be available in retail, therefore another sensor may have to be used, thus requiring changes to the sensor plate and to the sensor housing parts!",
+    "postprocessing": "",
+    "improvements": "",
+    "parts": []
+}

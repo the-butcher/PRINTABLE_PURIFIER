@@ -1,0 +1,11 @@
+{
+    "id": "unit_impeller",
+    "title": "Impeller",
+    "description": "The impeller is a challenging part to build. It requires precise axis alingnment of your printer and patience to find impeller balance.",
+    "postprocessing": "",
+    "improvements": "",
+    "parts": [
+        "print_impeller_1",
+        "print_impeller_2"
+    ]
+}
