@@ -1,0 +1,11 @@
+{
+    "id": "unit_purifier",
+    "parts": [
+        "unit_inner",
+        "unit_impeller",
+        "unit_cover",
+        "unit_honeycomb",
+        "unit_outer",
+        "unit_filter"
+    ]
+}
