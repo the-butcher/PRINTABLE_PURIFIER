@@ -1,5 +1,7 @@
 {
-    "id": "unit_purifier",
+    "id": "unit_honeycomb",
+    "title": "Case",
+    "description": "",
     "parts": [
         "print_honeycomb_1",
         "print_honeycomb_2",

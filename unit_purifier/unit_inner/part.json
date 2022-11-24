@@ -1,5 +1,7 @@
 {
-    "id": "unit_purifier",
+    "id": "unit_inner",
+    "title": "Inner parts",
+    "description": "The purifiers electronics are mostly placed within the filter (TODO :: link to filter). This part assembles motor, sensors, an arduino nano and the motor driver.",
     "parts": [
         "unit_hub",
         "unit_motor",

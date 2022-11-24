@@ -1,5 +1,7 @@
 {
     "id": "unit_purifier",
+    "title": "",
+    "description": "part description here",
     "parts": [
         "unit_inner",
         "unit_impeller",
