@@ -2,7 +2,7 @@
 
 |   |   |
 | --- | --- |
-| Description | The impeller is a challenging part to build. It requires precise axis alingnment of your printer and patience to find impeller balance. Please step into folder to find printable STL files. |
+| Description | The impeller is a challenging part to build. It requires precise axis alingnment of your printer and patience to find impeller balance. Please step into folder to find printable STL files.  |
 | Type | assembly |
 
 ---
@@ -10,7 +10,7 @@
 
 |   |   |
 | --- | --- |
-| Description | The lower part of the impeller. |
+| Description | The lower part of the impeller.  |
 | Type | 3D print |
 
 ---
@@ -22,7 +22,7 @@
 
 |   |   |
 | --- | --- |
-| Description | The upper part of the impeller. |
+| Description | The upper part of the impeller.  |
 | Type | 3D print |
 
 ---

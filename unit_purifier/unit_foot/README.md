@@ -2,7 +2,7 @@
 
 |   |   |
 | --- | --- |
-| Description | The purifiers foot. |
+| Description | The purifiers foot.  |
 | Type | assembly |
 
 ---
@@ -10,7 +10,7 @@
 
 |   |   |
 | --- | --- |
-| Description | The purifiers foot |
+| Description | The purifiers foot  |
 | Postprocessing | User pliers to remove supports from plug opening and cut M8x1 fine thread to fit the power plug. Sand and spray paint for a better finish. Cut rings of foam rubber for both bottom and top of the foot, then glue foam rubber to foot. |
 | Type | 3D print |
 

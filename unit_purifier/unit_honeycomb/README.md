@@ -2,7 +2,7 @@
 
 |   |   |
 | --- | --- |
-| Description | Housing around the Xiami Hepa filter. |
+| Description | Housing around the Xiami Hepa filter.  |
 | Type | assembly |
 
 ---
@@ -10,7 +10,7 @@
 
 |   |   |
 | --- | --- |
-| Description | The lower border of the purifier housing. |
+| Description | The lower border of the purifier housing.  |
 | Postprocessing | User pliers to remove supports. Carefully widen the 1mm holes to 2mm first, then to 3mm. File and sand the upper hexagon border so it properly fits the upper housing part. I used rough sand paper wrapped around an allen key to file multiple hexagon side at once. |
 | Type | 3D print |
 
@@ -23,7 +23,7 @@
 
 |   |   |
 | --- | --- |
-| Description | The center piece of the purifier housing. Attention: 4 pieces needed to get the full housing. |
+| Description | The center piece of the purifier housing. Attention: 4 pieces needed to get the full housing.  |
 | Postprocessing | User pliers to remove supports. File and sand upper and lower hexagon border so it properly fits the housing parts above and below. I used rough sand paper wrapped around an allen key to file multiple hexagon side at once. |
 | Type | 3D print |
 
@@ -36,7 +36,7 @@
 
 |   |   |
 | --- | --- |
-| Description | The upper border of the purifier housing. |
+| Description | The upper border of the purifier housing.  |
 | Postprocessing | User pliers to remove supports. Carefully widen the 1mm holes to 2mm first, then to 3mm. File and sand the lower hexagon border so it properly fits the housing part below. I used rough sand paper wrapped around an allen key to file multiple hexagon side at once. |
 | Type | 3D print |
 

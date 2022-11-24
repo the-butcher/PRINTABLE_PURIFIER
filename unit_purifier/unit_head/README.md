@@ -2,7 +2,7 @@
 
 |   |   |
 | --- | --- |
-| Description | The purifiers head with display and simple controls. |
+| Description | The purifiers head with display and simple controls.  |
 | Postprocessing | Glue "Lower head" to "Upper head", sand the combined part after glue has dried to remove glue remains, spray paint for a better finish. |
 | Improvements | When sliding the head over the hub, it does not auto center on the hub. This can lead to not enough space between the impeller and the head. I inserted 6 strips cut from a plastic bottle between head and hub for even spacing. |
 | Type | assembly |
@@ -12,7 +12,7 @@
 
 |   |   |
 | --- | --- |
-| Description | This part connects the outer and inner parts of the head. |
+| Description | This part connects the outer and inner parts of the head.  |
 | Postprocessing | With a 3mm drill widen the 12 holes. This will make it easier to insert the M3 screws when assembling the purifier. |
 | Type | 3D print |
 
@@ -25,7 +25,7 @@
 
 |   |   |
 | --- | --- |
-| Description | The lower part of the outfacing head. This part holds the OLED display and the potentiometer that controls the power setting. |
+| Description | The lower part of the outfacing head. This part holds the OLED display and the potentiometer that controls the power setting.  |
 | Postprocessing | User pliers to remove supports. Clean up openings for display and potentiometer so these fit properly. |
 | Improvements | In my build the pins on the outside of the OLED display were portruding too far to fit the display. I had to file away some material from the display opening. |
 | Type | 3D print |
@@ -39,7 +39,7 @@
 
 |   |   |
 | --- | --- |
-| Description | The infacing part of the head. |
+| Description | The infacing part of the head.  |
 | Postprocessing | Use a 4mm drill to open the screwholes. Use a 4mm screw to pull M4 nuts into the respective openings. The nuts should have a tight fit and not come out, once seated.
 Sand and spray for a better finish. |
 | Type | 3D print |
@@ -53,7 +53,7 @@ Sand and spray for a better finish. |
 
 |   |   |
 | --- | --- |
-| Description | The upper part of the outfacing head. |
+| Description | The upper part of the outfacing head.  |
 | Type | 3D print |
 
 ---

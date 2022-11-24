@@ -1,0 +1,13 @@
+{
+    "id": "unit_motor",
+    "title": "Motor assembly",
+    "description": "The motor assembly contains the motor, the connecting part to the impeller and a connection to the vibration sensor.",
+    "postprocessing": "",
+    "improvements": "",
+    "parts": [
+        "print_clamp",
+        "lathe_motor_connect",
+        "lathe_vibrate",
+        "motor_555_1"
+    ]
+}

@@ -1,8 +1,8 @@
-# Purifier inners (unit_inner)
+# Purifier inners. (unit_inner)
 
 |   |   |
 | --- | --- |
-| Description | The purifiers electronics were placed to inside the the filter. This part assembles motor, sensors, an arduino nano and the motor driver. |
+| Description | The purifiers electronics were placed to inside the the filter. This part assembles motor, sensors, an arduino nano and the motor driver.  |
 | Type | assembly |
 
 ---
@@ -10,7 +10,7 @@
 
 |   |   |
 | --- | --- |
-| Description | The hub holds the motor and acts a guide for the air as it exits the filter. |
+| Description | The hub holds the motor and acts a guide for the air as it exits the filter.  Please step into folder to find further instructions. |
 | Type | assembly |
 
 ---
@@ -18,8 +18,14 @@
 
 ---
 
-## [unit_motor](https://github.com/the-butcher/PRINTABLE_PURIFIER/tree/master/unit_purifier/unit_inner/unit_motor)
+## [Motor assembly (unit_motor)](https://github.com/the-butcher/PRINTABLE_PURIFIER/tree/master/unit_purifier/unit_inner/unit_motor)
 
+|   |   |
+| --- | --- |
+| Description | The motor assembly contains the motor, the connecting part to the impeller and a connection to the vibration sensor.  |
+| Type | electronic |
+
+---
 ![unit_motor](https://github.com/the-butcher/PRINTABLE_PURIFIER/blob/master/unit_purifier/unit_inner/unit_motor.gif?raw=true)
 
 ---
@@ -46,8 +52,8 @@
 
 |   |   |
 | --- | --- |
-| Description | The plating holding the sensors. Please step into folder to find printable STL files. |
-| Type | assembly |
+| Description | The plating holding the sensors. Please step into folder to find printable STL files.  |
+| Type | electronic |
 
 ---
 ![unit_sensors](https://github.com/the-butcher/PRINTABLE_PURIFIER/blob/master/unit_purifier/unit_inner/unit_sensors.gif?raw=true)
