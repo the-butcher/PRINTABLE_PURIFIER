@@ -1,8 +1,8 @@
 {
     "id": "print_honeycomb_1",
-    "title": "Lower case",
-    "description": "The lower border of the purifier case.",
-    "postprocessing": "User pliers to remove supports. Carefully widen the 1mm holes to 2mm first, then to 3mm. File and sand the upper hexagon border so it properly fits the upper case part. I used rough sand paper wrapped around an allen key to file multiple hexagon side at once.",
+    "title": "Lower housing",
+    "description": "The lower border of the purifier housing.",
+    "postprocessing": "User pliers to remove supports. Carefully widen the 1mm holes to 2mm first, then to 3mm. File and sand the upper hexagon border so it properly fits the upper housing part. I used rough sand paper wrapped around an allen key to file multiple hexagon side at once.",
     "improvements": "",
     "parts": []
 }
