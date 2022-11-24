@@ -65,8 +65,8 @@ Sand and spray for a better finish. |
 
 |   |   |
 | --- | --- |
-| Description | Type SSD1306 display. Search the internet for SD1306 display. ![SD1306](https://github.com/the-butcher/PRINTABLE_PURIFIER/blob/master/unit_purifier/unit_head/display_ssd1306.png?raw=true)  Please step into folder to find further instructions. |
-| Type | assembly |
+| Description | Type SSD1306 display. Search the internet for SD1306 display. ![SD1306](https://github.com/the-butcher/PRINTABLE_PURIFIER/blob/master/unit_purifier/unit_head/display_ssd1306.png?raw=true)  |
+| Type | electronic |
 
 ---
 
@@ -74,8 +74,8 @@ Sand and spray for a better finish. |
 
 |   |   |
 | --- | --- |
-| Description | Type 555-1 motor. Search the internet for poti_smc10h04103 potentiometer. ![smc10h04103](https://github.com/the-butcher/PRINTABLE_PURIFIER/blob/master/unit_purifier/unit_head/poti_smc10h04103.png?raw=true)  Please step into folder to find further instructions. |
-| Type | assembly |
+| Description | Ptentiometer 10 kOhm. Search the internet for poti_smc10h04103 potentiometer. ![smc10h04103](https://github.com/the-butcher/PRINTABLE_PURIFIER/blob/master/unit_purifier/unit_head/poti_smc10h04103.png?raw=true)  |
+| Type | electronic |
 
 ---
 
