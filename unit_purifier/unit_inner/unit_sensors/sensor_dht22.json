@@ -1,6 +1,6 @@
 {
     "id": "sensor_dht22",
-    "title": "Temperature and humidity sensor.",
+    "title": "Temperature and humidity sensor",
     "description": "For added value a temperature and humidity sensor was included. This sensor provided information only and does not contribute to the purifiers power setting. Sensor used: ![DHT22](https://github.com/the-butcher/PRINTABLE_PURIFIER/blob/master/unit_purifier/unit_inner/unit_sensors/sensor_dht22.png?raw=true) [DHT22](https://joy-it.net/en/products/SEN-DHT22)",
     "postprocessing": "",
     "improvements": "",

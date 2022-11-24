@@ -1,6 +1,6 @@
 {
     "id": "unit_inner",
-    "title": "Core",
+    "title": "Purifier inners",
     "description": "The purifiers electronics were placed to inside the the filter. This part assembles motor, sensors, an arduino nano and the motor driver.",
     "postprocessing": "",
     "improvements": "",

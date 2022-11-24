@@ -1,17 +1,15 @@
-# Core (unit_inner)
+# Purifier inners (unit_inner)
 
-|   |   |
-| ------------- | ------------- |
 | Description | The purifiers electronics were placed to inside the the filter. This part assembles motor, sensors, an arduino nano and the motor driver. |
-|   |   |
+| ------------- | ------------- |
 
+---
 ## ## [Impeller hub (unit_hub)](https://github.com/the-butcher/PRINTABLE_PURIFIER/tree/master/unit_purifier/unit_inner/unit_hub)
 
-|   |   |
-| ------------- | ------------- |
 | Description | The hub holds the motor and acts a guide for the air as it exits the filter. |
-|   |   |
+| ------------- | ------------- |
 
+---
 ![unit_hub](https://github.com/the-butcher/PRINTABLE_PURIFIER/blob/master/unit_purifier/unit_inner/unit_hub.gif?raw=true)
 
 ---
@@ -42,11 +40,10 @@
 
 ## ## [Sensors (unit_sensors)](https://github.com/the-butcher/PRINTABLE_PURIFIER/tree/master/unit_purifier/unit_inner/unit_sensors)
 
-|   |   |
-| ------------- | ------------- |
 | Description | The plating holding the sensors. |
-|   |   |
+| ------------- | ------------- |
 
+---
 ![unit_sensors](https://github.com/the-butcher/PRINTABLE_PURIFIER/blob/master/unit_purifier/unit_inner/unit_sensors.gif?raw=true)
 
 ---
