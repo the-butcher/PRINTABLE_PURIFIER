@@ -1,8 +1,8 @@
-#  (unit_head)
+# Head (unit_head)
 
 |   |   |
 | ------------- | ------------- |
-| Description | Head |
+| Description | The purifiers head with display and simple controls. Please step into folder to find printable STL files. |
 | Postprocessing | Glue print_outer_ring to print_outer_controls, sand the combined part after glue has dried to remove glue remains, spray paint for a better finish. |
 | Improvements | When sliding the head over the hub, it does not auto center on the hub. This can lead to not enough space between the impeller and the head. I inserted 6 strips cut from a plastic bottle between head and hub for even spacing. |
 

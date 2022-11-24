@@ -2,7 +2,7 @@
 
 |   |   |
 | ------------- | ------------- |
-| Description | The plating holding the sensors. |
+| Description | The plating holding the sensors. Please step into folder to find printable STL files. |
 
 ---
 ## Sensor Plate (print_holder_sensors_1) &rarr; [STL File](https://github.com/the-butcher/PRINTABLE_PURIFIER/blob/master/unit_purifier/unit_inner/unit_sensors/print_holder_sensors_1.stl)
@@ -62,6 +62,14 @@
 |   |   |
 | ------------- | ------------- |
 | Description | For added value a temperature and humidity sensor was included. This sensor provided information only and does not contribute to the purifiers power setting. Sensor used: ![DHT22](https://github.com/the-butcher/PRINTABLE_PURIFIER/blob/master/unit_purifier/unit_inner/unit_sensors/sensor_dht22.png?raw=true) [DHT22](https://joy-it.net/en/products/SEN-DHT22) |
+
+---
+
+## Vibration sensor. (sensor_vib01)
+
+|   |   |
+| ------------- | ------------- |
+| Description | The vibration sensor is meant to detect motor movement. Sensor used: ![VIB-01](https://github.com/the-butcher/PRINTABLE_PURIFIER/blob/master/unit_purifier/unit_inner/unit_sensors/sensor_vib01.png?raw=true) [PM-D4](https://joy-it.net/en/products/SEN-VIB01) |
 
 ---
 

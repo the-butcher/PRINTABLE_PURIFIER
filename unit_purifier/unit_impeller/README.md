@@ -2,7 +2,7 @@
 
 |   |   |
 | ------------- | ------------- |
-| Description | The impeller is a challenging part to build. It requires precise axis alingnment of your printer and patience to find impeller balance. |
+| Description | The impeller is a challenging part to build. It requires precise axis alingnment of your printer and patience to find impeller balance. Please step into folder to find printable STL files. |
 
 ---
 ## Lower Impeller (print_impeller_1) &rarr; [STL File](https://github.com/the-butcher/PRINTABLE_PURIFIER/blob/master/unit_purifier/unit_impeller/print_impeller_1.stl)

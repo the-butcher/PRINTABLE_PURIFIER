@@ -1,6 +1,7 @@
 {
     "id": "unit_cover",
-    "description": "Air outlet assembly",
+    "title": "Air outlet",
+    "description": "Air outlet assembly. Please step into folder to find printable STL files.",
     "postprocessing": "",
     "improvements": "",
     "parts": [

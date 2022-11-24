@@ -1,8 +1,8 @@
-#  (unit_foot)
+# Foot (unit_foot)
 
 |   |   |
 | ------------- | ------------- |
-| Description | Foot |
+| Description | The purifiers foot. Please step into folder to find printable STL files. |
 | Postprocessing | Please refer to postprocessing information of the respective parts. |
 
 ---

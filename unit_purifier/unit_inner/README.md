@@ -44,7 +44,7 @@
 
 |   |   |
 | ------------- | ------------- |
-| Description | The plating holding the sensors. |
+| Description | The plating holding the sensors. Please step into folder to find printable STL files. |
 
 ---
 ![unit_sensors](https://github.com/the-butcher/PRINTABLE_PURIFIER/blob/master/unit_purifier/unit_inner/unit_sensors.gif?raw=true)

@@ -1,6 +1,7 @@
 {
     "id": "unit_foot",
-    "description": "Foot",
+    "title": "Foot",
+    "description": "The purifiers foot. Please step into folder to find printable STL files.",
     "postprocessing": "Please refer to postprocessing information of the respective parts.",
     "improvements": "",
     "parts": [

@@ -21,18 +21,18 @@
 
 |   |   |
 | ------------- | ------------- |
-| Description | The impeller is a challenging part to build. It requires precise axis alingnment of your printer and patience to find impeller balance. |
+| Description | The impeller is a challenging part to build. It requires precise axis alingnment of your printer and patience to find impeller balance. Please step into folder to find printable STL files. |
 
 ---
 ![unit_impeller](https://github.com/the-butcher/PRINTABLE_PURIFIER/blob/master/unit_purifier/unit_impeller.gif?raw=true)
 
 ---
 
-## [unit_cover](https://github.com/the-butcher/PRINTABLE_PURIFIER/tree/master/unit_purifier/unit_cover)
+## [Air outlet (unit_cover)](https://github.com/the-butcher/PRINTABLE_PURIFIER/tree/master/unit_purifier/unit_cover)
 
 |   |   |
 | ------------- | ------------- |
-| Description | Air outlet assembly |
+| Description | Air outlet assembly. Please step into folder to find printable STL files. |
 
 ---
 ![unit_cover](https://github.com/the-butcher/PRINTABLE_PURIFIER/blob/master/unit_purifier/unit_cover.gif?raw=true)
@@ -43,18 +43,18 @@
 
 |   |   |
 | ------------- | ------------- |
-| Description |  |
+| Description | Casing around the Xiami Hepa filter. Please step into folder to find printable STL files. |
 
 ---
 ![unit_honeycomb](https://github.com/the-butcher/PRINTABLE_PURIFIER/blob/master/unit_purifier/unit_honeycomb.gif?raw=true)
 
 ---
 
-## [unit_head](https://github.com/the-butcher/PRINTABLE_PURIFIER/tree/master/unit_purifier/unit_head)
+## [Head (unit_head)](https://github.com/the-butcher/PRINTABLE_PURIFIER/tree/master/unit_purifier/unit_head)
 
 |   |   |
 | ------------- | ------------- |
-| Description | Head |
+| Description | The purifiers head with display and simple controls. Please step into folder to find printable STL files. |
 | Postprocessing | Glue print_outer_ring to print_outer_controls, sand the combined part after glue has dried to remove glue remains, spray paint for a better finish. |
 | Improvements | When sliding the head over the hub, it does not auto center on the hub. This can lead to not enough space between the impeller and the head. I inserted 6 strips cut from a plastic bottle between head and hub for even spacing. |
 
@@ -63,11 +63,11 @@
 
 ---
 
-## [unit_foot](https://github.com/the-butcher/PRINTABLE_PURIFIER/tree/master/unit_purifier/unit_foot)
+## [Foot (unit_foot)](https://github.com/the-butcher/PRINTABLE_PURIFIER/tree/master/unit_purifier/unit_foot)
 
 |   |   |
 | ------------- | ------------- |
-| Description | Foot |
+| Description | The purifiers foot. Please step into folder to find printable STL files. |
 | Postprocessing | Please refer to postprocessing information of the respective parts. |
 
 ---

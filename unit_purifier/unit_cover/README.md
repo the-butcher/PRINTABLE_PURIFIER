@@ -1,8 +1,8 @@
-#  (unit_cover)
+# Air outlet (unit_cover)
 
 |   |   |
 | ------------- | ------------- |
-| Description | Air outlet assembly |
+| Description | Air outlet assembly. Please step into folder to find printable STL files. |
 
 ---
 ## Impeller cover (print_cover_1) &rarr; [STL File](https://github.com/the-butcher/PRINTABLE_PURIFIER/blob/master/unit_purifier/unit_cover/print_cover_1.stl)
