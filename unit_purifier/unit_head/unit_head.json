@@ -8,6 +8,8 @@
         "print_outer_connect",
         "print_outer_controls",
         "print_outer_outlet",
-        "print_outer_ring"
+        "print_outer_ring",
+        "display_ssd1306",
+        "poti_smc10h04103"
     ]
 }

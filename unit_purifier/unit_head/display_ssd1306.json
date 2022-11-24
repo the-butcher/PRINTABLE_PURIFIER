@@ -1,0 +1,8 @@
+{
+    "id": "display_ssd1306",
+    "title": "Display",
+    "description": "Type SSD1306 display. Search the internet for SD1306 display. ![SD1306](https://github.com/the-butcher/PRINTABLE_PURIFIER/blob/master/unit_purifier/unit_head/display_ssd1306.png?raw=true)",
+    "postprocessing": "",
+    "improvements": "",
+    "parts": []
+}
