@@ -34,7 +34,7 @@
 
 |   |   |
 | --- | --- |
-| Description | An original Arduino Nano or a Nano clone.  ![Arduino Nano](https://github.com/the-butcher/PRINTABLE_PURIFIER/blob/master/unit_purifier/unit_inner/unit_sensors/arduino_nano.png?raw=true)  |
+| Description | An original Arduino Nano or a Nano clone.  ![Arduino Nano](https://github.com/the-butcher/PRINTABLE_PURIFIER/blob/master/unit_purifier/unit_inner/unit_nano/arduino_nano.png?raw=true)  |
 | Type | electronic |
 
 ---
