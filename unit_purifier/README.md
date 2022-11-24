@@ -43,11 +43,11 @@
 
 ---
 
-## [Case (unit_honeycomb)](https://github.com/the-butcher/PRINTABLE_PURIFIER/tree/master/unit_purifier/unit_honeycomb)
+## [Housing (unit_honeycomb)](https://github.com/the-butcher/PRINTABLE_PURIFIER/tree/master/unit_purifier/unit_honeycomb)
 
 |   |   |
 | --- | --- |
-| Description | Casing around the Xiami Hepa filter. |
+| Description | Housing around the Xiami Hepa filter. |
 | Type | assembly |
 
 ---
