@@ -2,7 +2,7 @@
     "id": "print_outer_connect",
     "title": "Head connector",
     "description": "This part connects the outer and inner parts of the head.",
-    "postprocessing": "With a 3mm drill widen the 12 holes that will connect to the honeycomb casing. This will make it ease to insert screws when assembling the purifier.",
+    "postprocessing": "With a 3mm drill widen the 12 holes. This will make it easier to insert the M3 screws when assembling the purifier.",
     "improvements": "",
     "parts": []
 }

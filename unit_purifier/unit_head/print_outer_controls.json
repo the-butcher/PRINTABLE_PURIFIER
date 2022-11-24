@@ -2,7 +2,7 @@
     "id": "print_outer_controls",
     "title": "Lower head",
     "description": "The lower part of the outfacing head. This part holds the OLED display and the potentiometer that controls the power setting.",
-    "postprocessing": "Remove supports. Clean up openings for display and potentiometer so these fit properly.",
+    "postprocessing": "User pliers to remove supports. Clean up openings for display and potentiometer so these fit properly.",
     "improvements": "In my build the pins on the outside of the OLED display were portruding too far to fit the display. I had to file away some material from the display opening.",
     "parts": []
 }

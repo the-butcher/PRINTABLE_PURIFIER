@@ -1,7 +1,7 @@
 {
     "id": "unit_cover_1",
     "title": "Impeller cover",
-    "description": "This is the cover plate protecting both you fingers and the impeller.",
+    "description": "This is the cover plate protecting both your fingers and the impeller.",
     "postprocessing": "",
     "improvements": "In my build there was not enough space to let the cover slide in, so i had to file down ca. 1mm. I would suggest printing this part after completing the purifier head, so you already know how much space remains to fit it in.",
     "parts": []
