@@ -52,7 +52,7 @@
 
 |   |   |
 | --- | --- |
-| Description | The plating holding the sensors. Please step into folder to find printable STL files.  Please step into folder to find further instructions. |
+| Description | The plating holding the sensors.  Please step into folder to find further instructions. |
 | Type | assembly |
 
 ---

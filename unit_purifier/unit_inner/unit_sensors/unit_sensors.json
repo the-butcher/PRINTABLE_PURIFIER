@@ -1,7 +1,7 @@
 {
     "id": "unit_sensors",
     "title": "Sensors",
-    "description": "The plating holding the sensors. Please step into folder to find printable STL files.",
+    "description": "The plating holding the sensors.",
     "postprocessing": "",
     "improvements": "",
     "parts": [

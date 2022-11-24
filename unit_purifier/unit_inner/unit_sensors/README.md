@@ -2,7 +2,7 @@
 
 |   |   |
 | --- | --- |
-| Description | The plating holding the sensors. Please step into folder to find printable STL files.  |
+| Description | The plating holding the sensors.  |
 | Type | assembly |
 
 ---
