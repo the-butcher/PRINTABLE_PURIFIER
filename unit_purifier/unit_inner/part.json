@@ -1,0 +1,11 @@
+{
+    "id": "unit_purifier",
+    "parts": [
+        "unit_hub",
+        "unit_motor",
+        "unit_nano",
+        "unit_power",
+        "unit_screws",
+        "unit_sensors"
+    ]
+}

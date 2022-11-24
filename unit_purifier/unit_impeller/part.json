@@ -1,0 +1,7 @@
+{
+    "id": "unit_purifier",
+    "parts": [
+        "print_impeller_1",
+        "print_impeller_2"
+    ]
+}

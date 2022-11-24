@@ -1,0 +1,8 @@
+{
+    "id": "unit_purifier",
+    "parts": [
+        "print_honeycomb_1",
+        "print_honeycomb_2",
+        "print_honeycomb_3"
+    ]
+}
