@@ -5,7 +5,7 @@
 | Postprocessing | Please refer to postprocessing information of the respective parts. |
 
 ---
-## ## [Purifier inners (unit_inner)](https://github.com/the-butcher/PRINTABLE_PURIFIER/tree/master/unit_purifier/unit_inner)
+## [Purifier inners (unit_inner)](https://github.com/the-butcher/PRINTABLE_PURIFIER/tree/master/unit_purifier/unit_inner)
 
 | Description | The purifiers electronics were placed to inside the the filter. This part assembles motor, sensors, an arduino nano and the motor driver. |
 | ------------- | ------------- |
@@ -15,7 +15,7 @@
 
 ---
 
-## ## [Impeller (unit_impeller)](https://github.com/the-butcher/PRINTABLE_PURIFIER/tree/master/unit_purifier/unit_impeller)
+## [Impeller (unit_impeller)](https://github.com/the-butcher/PRINTABLE_PURIFIER/tree/master/unit_purifier/unit_impeller)
 
 | Description | The impeller is a challenging part to build. It requires precise axis alingnment of your printer and patience to find impeller balance. |
 | ------------- | ------------- |
@@ -25,7 +25,7 @@
 
 ---
 
-## ## [unit_cover](https://github.com/the-butcher/PRINTABLE_PURIFIER/tree/master/unit_purifier/unit_cover)
+## [unit_cover](https://github.com/the-butcher/PRINTABLE_PURIFIER/tree/master/unit_purifier/unit_cover)
 
 | Description | Air outlet assembly |
 | ------------- | ------------- |
@@ -35,7 +35,7 @@
 
 ---
 
-## ## [Case (unit_honeycomb)](https://github.com/the-butcher/PRINTABLE_PURIFIER/tree/master/unit_purifier/unit_honeycomb)
+## [Case (unit_honeycomb)](https://github.com/the-butcher/PRINTABLE_PURIFIER/tree/master/unit_purifier/unit_honeycomb)
 
 | Description |  |
 | ------------- | ------------- |
@@ -45,7 +45,7 @@
 
 ---
 
-## ## [unit_head](https://github.com/the-butcher/PRINTABLE_PURIFIER/tree/master/unit_purifier/unit_head)
+## [unit_head](https://github.com/the-butcher/PRINTABLE_PURIFIER/tree/master/unit_purifier/unit_head)
 
 | Description | Head |
 | ------------- | ------------- |
@@ -57,7 +57,7 @@
 
 ---
 
-## ## [unit_foot](https://github.com/the-butcher/PRINTABLE_PURIFIER/tree/master/unit_purifier/unit_foot)
+## [unit_foot](https://github.com/the-butcher/PRINTABLE_PURIFIER/tree/master/unit_purifier/unit_foot)
 
 | Description | Foot |
 | ------------- | ------------- |
@@ -68,7 +68,7 @@
 
 ---
 
-## ## [Filter (unit_filter)](https://github.com/the-butcher/PRINTABLE_PURIFIER/tree/master/unit_purifier/unit_filter)
+## [Filter (unit_filter)](https://github.com/the-butcher/PRINTABLE_PURIFIER/tree/master/unit_purifier/unit_filter)
 
 | Description | The purifier is built around a Xiaomi Smartmi replacement filter. Please search for "Smartmi SMARTMI AIR PURIFIER Activated Carbon Filter, HEPA-H13" and make sure the filter found has the correct product dimensions of 20 x 20 x 29.3 cm. |
 | ------------- | ------------- |
