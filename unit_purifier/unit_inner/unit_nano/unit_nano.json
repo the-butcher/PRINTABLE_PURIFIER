@@ -6,6 +6,7 @@
     "improvements": "",
     "parts": [
         "print_holder_nano_1",
-        "print_holder_nano_2"
+        "print_holder_nano_2",
+        "arduino_nano"
     ]
 }

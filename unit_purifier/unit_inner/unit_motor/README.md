@@ -43,7 +43,7 @@
 
 |   |   |
 | --- | --- |
-| Description | Type 555-1 motor. Search the internet for 555-1 motor.  |
+| Description | Type 555-1 motor. Search the internet for 555-1 motor. ![555-1](https://github.com/the-butcher/PRINTABLE_PURIFIER/blob/master/unit_purifier/unit_inner/unit_sensors/motor_555_1.png?raw=true)  |
 | Type | electronic |
 
 ---

@@ -34,8 +34,8 @@
 
 |   |   |
 | --- | --- |
-| Description | The plate holding the Arduino Nano.  |
-| Type | electronic |
+| Description | The plate holding the Arduino Nano.  Please step into folder to find further instructions. |
+| Type | assembly |
 
 ---
 ![unit_nano](https://github.com/the-butcher/PRINTABLE_PURIFIER/blob/master/unit_purifier/unit_inner/unit_nano.gif?raw=true)

@@ -11,7 +11,7 @@
 |   |   |
 | --- | --- |
 | Description | The main plate holding the Arduino Nano.  |
-| Type | electronic |
+| Type | 3D print |
 
 ---
 ![print_holder_nano_1](https://github.com/the-butcher/PRINTABLE_PURIFIER/blob/master/unit_purifier/unit_inner/unit_nano/print_holder_nano_1.gif?raw=true)
@@ -23,10 +23,19 @@
 |   |   |
 | --- | --- |
 | Description | Holding plate for the Arduino Nano.  |
-| Type | electronic |
+| Type | 3D print |
 
 ---
 ![print_holder_nano_2](https://github.com/the-butcher/PRINTABLE_PURIFIER/blob/master/unit_purifier/unit_inner/unit_nano/print_holder_nano_2.gif?raw=true)
+
+---
+
+## Arduino Nano (arduino_nano)
+
+|   |   |
+| --- | --- |
+| Description | An original Arduino Nano or a Nano clone.  ![Arduino Nano](https://github.com/the-butcher/PRINTABLE_PURIFIER/blob/master/unit_purifier/unit_inner/unit_sensors/arduino_nano.png?raw=true)  |
+| Type | electronic |
 
 ---
 
