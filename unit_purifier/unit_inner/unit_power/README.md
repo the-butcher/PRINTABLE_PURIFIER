@@ -34,7 +34,7 @@
 
 |   |   |
 | --- | --- |
-| Description | The driver regulating motor power.  |
+| Description | The L298N driver regulating motor power. ![L298N](https://github.com/the-butcher/PRINTABLE_PURIFIER/blob/master/unit_purifier/unit_inner/unit_power/driver_l298n.png?raw=true)  |
 | Type | electronic |
 
 ---
