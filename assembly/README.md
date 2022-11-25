@@ -18,3 +18,9 @@ Insert counterweights into the provided 6mm holes as required until vibration is
 Print [Upper hub](../unit_purifier/unit_inner/unit_hub/print_hub_2.stl) and [Upper impeller](../unit_purifier/unit_impeller/print_impeller_2.stl). Have M4 screws and 20MM M4 nuts ready. Repeat balancing with the upper impeller. I got the 20mm long M4 nuts in electronics supply rather than in a hardware store.
 
 ![Step 2](./assembly_2a.png)
+
+### 3) Inners
+
+Build all remaining units described in [Inners](../unit_purifier/unit_inner).
+
+![Step 3](./assembly_3a.png)
