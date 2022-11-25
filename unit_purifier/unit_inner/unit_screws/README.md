@@ -2,7 +2,7 @@
 
 |   |   |
 | --- | --- |
-| Description |   |
+| Description | All hardware needed to assemble the purifier inner parts.  |
 | Type | assembly |
 
 ---
@@ -15,7 +15,7 @@
 
 ---
 
-## Aluminum Tube (hardware_tube_8_1_125)
+## Aluminum Tube (hardware_tube_6_1_125)
 
 |   |   |
 | --- | --- |
@@ -24,7 +24,7 @@
 
 ---
 
-## Aluminum Tube (hardware_tube_8_1_50)
+## Aluminum Tube (hardware_tube_6_1_50)
 
 |   |   |
 | --- | --- |

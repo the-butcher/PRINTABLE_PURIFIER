@@ -1,7 +1,7 @@
 {
     "id": "lathe_vibrate",
     "title": "Actuator",
-    "description": "This part transfers presses on the vibration sensor.",
+    "description": "This part transfers motor vibration to the vibration sensor.",
     "postprocessing": "",
     "improvements": "",
     "parts": []

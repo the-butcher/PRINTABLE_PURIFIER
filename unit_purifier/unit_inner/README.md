@@ -54,18 +54,6 @@
 
 ---
 
-## [Screws (unit_screws)](https://github.com/the-butcher/PRINTABLE_PURIFIER/tree/master/unit_purifier/unit_inner/unit_screws)
-
-|   |   |
-| --- | --- |
-| Description |   Please step into folder to find more details and printable STL Files. |
-| Type | assembly |
-
----
-![unit_screws](https://github.com/the-butcher/PRINTABLE_PURIFIER/blob/master/unit_purifier/unit_inner/unit_screws.gif?raw=true)
-
----
-
 ## [Sensors (unit_sensors)](https://github.com/the-butcher/PRINTABLE_PURIFIER/tree/master/unit_purifier/unit_inner/unit_sensors)
 
 |   |   |
@@ -75,6 +63,18 @@
 
 ---
 ![unit_sensors](https://github.com/the-butcher/PRINTABLE_PURIFIER/blob/master/unit_purifier/unit_inner/unit_sensors.gif?raw=true)
+
+---
+
+## [Screws (unit_screws)](https://github.com/the-butcher/PRINTABLE_PURIFIER/tree/master/unit_purifier/unit_inner/unit_screws)
+
+|   |   |
+| --- | --- |
+| Description | All hardware needed to assemble the purifier inner parts.  Please step into folder to find more details and printable STL Files. |
+| Type | assembly |
+
+---
+![unit_screws](https://github.com/the-butcher/PRINTABLE_PURIFIER/blob/master/unit_purifier/unit_inner/unit_screws.gif?raw=true)
 
 ---
 

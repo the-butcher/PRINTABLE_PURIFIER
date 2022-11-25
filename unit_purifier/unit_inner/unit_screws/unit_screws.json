@@ -1,13 +1,13 @@
 {
     "id": "unit_screws",
     "title": "Screws",
-    "description": "",
+    "description": "All hardware needed to assemble the purifier inner parts.",
     "postprocessing": "",
     "improvements": "",
     "parts": [
         "hardware_rod_m4_253",
-        "hardware_tube_8_1_125",
-        "hardware_tube_8_1_50",
+        "hardware_tube_6_1_125",
+        "hardware_tube_6_1_50",
         "hardware_nut_m4"
     ]
 }

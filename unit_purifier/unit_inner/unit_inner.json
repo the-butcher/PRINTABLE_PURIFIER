@@ -9,7 +9,7 @@
         "unit_motor",
         "unit_nano",
         "unit_power",
-        "unit_screws",
-        "unit_sensors"
+        "unit_sensors",
+        "unit_screws"
     ]
 }

@@ -33,7 +33,7 @@
 
 |   |   |
 | --- | --- |
-| Description | This part transfers presses on the vibration sensor.  |
+| Description | This part transfers motor vibration to the vibration sensor.  |
 | Type | lathe |
 
 ---
@@ -42,8 +42,45 @@
 
 |   |   |
 | --- | --- |
-| Description | Type 555-1 motor. Search the internet for 555-1 motor. ![555-1](https://github.com/the-butcher/PRINTABLE_PURIFIER/blob/master/unit_purifier/unit_inner/unit_motor/motor_555_1.png?raw=true)  |
+| Description | Type 555-1 motor. Search the internet for 555-1 motor.
+ ![555-1](https://github.com/the-butcher/PRINTABLE_PURIFIER/blob/master/unit_purifier/unit_inner/unit_motor/motor_555_1.png?raw=true)  |
 | Type | electronic |
+
+---
+
+## M3 flatheaded screw (hardware_flat_allen_m3)
+
+|   |   |
+| --- | --- |
+| Description | M3 flatheaded allen screw, 10mm long, 2 pieces.  |
+| Type | hardware |
+
+---
+
+## M4 screw (hardware_allen_m4_14mm)
+
+|   |   |
+| --- | --- |
+| Description | M4 allen screw, 14mm long.  |
+| Type | hardware |
+
+---
+
+## M4 nut (hardware_nut_m4)
+
+|   |   |
+| --- | --- |
+| Description | M4 nut.  |
+| Type | hardware |
+
+---
+
+## Aluminum Tube (hardware_tube_8_1_70)
+
+|   |   |
+| --- | --- |
+| Description | Aluminum Tube 8x1mm 70mm long.  |
+| Type | hardware |
 
 ---
 
