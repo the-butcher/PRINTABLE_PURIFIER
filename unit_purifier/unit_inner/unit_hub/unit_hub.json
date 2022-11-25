@@ -6,6 +6,8 @@
     "improvements": "",
     "parts": [
         "print_hub_1",
-        "print_hub_2"
+        "print_hub_2",
+        "hardware_nut_m4_20mm",
+        "hardware_allen_m4_14mm"
     ]
 }
