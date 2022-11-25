@@ -29,11 +29,11 @@
 
 ---
 
-## Connector to vibration (lathe_vibrate) &rarr; [STL File](https://github.com/the-butcher/PRINTABLE_PURIFIER/blob/master/unit_purifier/unit_inner/unit_motor/lathe_vibrate.stl)
+## Actuator (lathe_vibrate) &rarr; [STL File](https://github.com/the-butcher/PRINTABLE_PURIFIER/blob/master/unit_purifier/unit_inner/unit_motor/lathe_vibrate.stl)
 
 |   |   |
 | --- | --- |
-| Description |   |
+| Description | This part transfers presses on the vibration sensor.  |
 | Type | lathe |
 
 ---

@@ -33,6 +33,12 @@
 
 ---
 
-## hardware_nut_m4
+## M4 nut (hardware_nut_m4)
 
+|   |   |
+| --- | --- |
+| Description | M4 nut, 3 pieces.  |
+| Type | hardware |
+
+---
 
