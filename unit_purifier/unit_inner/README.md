@@ -10,7 +10,7 @@
 
 |   |   |
 | --- | --- |
-| Description | The hub holds the motor and acts a guide for the air as it exits the filter.  Please step into folder to find further instructions. |
+| Description | The hub holds the motor and acts a guide for the air as it exits the filter.  Please step into folder to find more details and printable STL Files. |
 | Type | assembly |
 
 ---
@@ -22,7 +22,7 @@
 
 |   |   |
 | --- | --- |
-| Description | The motor assembly contains the motor, the connecting part to the impeller and a connection to the vibration sensor.  Please step into folder to find further instructions. |
+| Description | The motor assembly contains the motor, the connecting part to the impeller and a connection to the vibration sensor.  Please step into folder to find more details and printable STL Files. |
 | Type | assembly |
 
 ---
@@ -34,7 +34,7 @@
 
 |   |   |
 | --- | --- |
-| Description | The plate holding the Arduino Nano.  Please step into folder to find further instructions. |
+| Description | The plate holding the Arduino Nano.  Please step into folder to find more details and printable STL Files. |
 | Type | assembly |
 
 ---
@@ -46,7 +46,7 @@
 
 |   |   |
 | --- | --- |
-| Description | The plate holding the Arduino Nano.  Please step into folder to find further instructions. |
+| Description | The plate holding the Arduino Nano.  Please step into folder to find more details and printable STL Files. |
 | Type | assembly |
 
 ---
@@ -64,7 +64,7 @@
 
 |   |   |
 | --- | --- |
-| Description | The plate holding the sensors.  Please step into folder to find further instructions. |
+| Description | The plate holding the sensors.  Please step into folder to find more details and printable STL Files. |
 | Type | assembly |
 
 ---
