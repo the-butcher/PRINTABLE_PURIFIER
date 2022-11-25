@@ -6,7 +6,7 @@
 | Type | assembly |
 
 ---
-## Lower Impeller (print_impeller_1) &rarr; [STL File](https://github.com/the-butcher/PRINTABLE_PURIFIER/blob/master/unit_purifier/unit_impeller/print_impeller_1.stl)
+## Lower impeller (print_impeller_1) &rarr; [STL File](https://github.com/the-butcher/PRINTABLE_PURIFIER/blob/master/unit_purifier/unit_impeller/print_impeller_1.stl)
 
 |   |   |
 | --- | --- |

@@ -6,7 +6,7 @@
 | Type | assembly |
 
 ---
-## Lower part of the hub. (print_hub_1) &rarr; [STL File](https://github.com/the-butcher/PRINTABLE_PURIFIER/blob/master/unit_purifier/unit_inner/unit_hub/print_hub_1.stl)
+## Lower hub (print_hub_1) &rarr; [STL File](https://github.com/the-butcher/PRINTABLE_PURIFIER/blob/master/unit_purifier/unit_inner/unit_hub/print_hub_1.stl)
 
 |   |   |
 | --- | --- |
