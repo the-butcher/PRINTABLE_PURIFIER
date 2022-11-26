@@ -79,3 +79,21 @@ Sand and spray for a better finish. |
 
 ---
 
+## M4 nut (hardware_nut_m4)
+
+|   |   |
+| --- | --- |
+| Description | M4 nut, 6 pieces.  |
+| Type | hardware |
+
+---
+
+## M4 screw (hardware_allen_m4_14mm)
+
+|   |   |
+| --- | --- |
+| Description | M4 allen screw, 14mm long. 6 pieces.  |
+| Type | hardware |
+
+---
+

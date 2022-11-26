@@ -10,6 +10,8 @@
         "print_outer_outlet",
         "print_outer_ring",
         "display_ssd1306",
-        "poti_smc10h04103"
+        "poti_smc10h04103",
+        "hardware_nut_m4",
+        "hardware_allen_m4_14mm"
     ]
 }
