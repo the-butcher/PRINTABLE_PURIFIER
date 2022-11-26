@@ -129,71 +129,75 @@ With all cables in place, the inner unit should look like this.
 
 ---
 
-### 4. Head
-
-In the next steps the head of the purifier is built. Full part list here: [Head](../unit_purifier/unit_head).
-
-4.1 Lower head
-
-Print [Lower head](../unit_purifier/unit_head/print_outer_controls.stl). Note that this part is printed upside down. Use pliers to remove supports, then clean up the the openings for the display and the potentiometer until they fit properly. Remove display and potentiometer again, they will be finally inserted in a later step.
-
-![Step 4.1](./assembly_41.png)
-
-4.2 Upper head
-
-Print [Upper head](../unit_purifier/unit_head/print_outer_ring.stl). Note that this part is printed upside down. Place The upper head into Lower head and glue them together. Before applying glue, please check that the glue you are using works good with PLA. I used "UHU Hartplastik", which you can get in most hardware stores where i live.
-
-After the glue has dried, sand the outfacing surface of the head, then spray paint the outside in multiple, thin layers. Like with the glue be sure in advance that the spray you are using does not negatively affect your material.
-
-![Step 4.2](./assembly_42.png)
-
-4.3 Head Connector
-
-Print [Head Connector](../unit_purifier/unit_head/print_outer_connect.stl). Note that the part is printed upside down. Cut a piece of 2mm foam rubber to match the bottom surface, cut holes where screws and cable outlets are, then glue the foam rubber in place. Again be sure the glue does not harm both foam rubber and PLA.
-
-![Step 4.2](./assembly_43.png)
-
-4.4 Inner Head
-
-Print [Inner Head](../unit_purifier/unit_head/print_outer_outlet.stl). Note that the part is printed upside down. Use a 4mm drill to open the screwholes in this part. Use a M4 screw of appropriate length to pull M4 nuts into their seats in this part. Sand inner surface and spray paint for a good surface finish.
-
-![Step 4.2](./assembly_44.png)
-
-3.5 Head Assembly
-
-Reinsert display and potentiometer into the outer ring. Use the nut provided with the potentiometer to tighten it in place. Slide in the flat connector ring from underneath. Slide in the Inner head from the upside. Be careful not to harm the display and potentiometer cables, which should be passing through adjacent cable outlets now.
-
-Use M4 screws to screw the connector and the inner part together. When done, the purifier head should look like this.
-
-![Step 4.5](./assembly_45.png)
+### 4. Arduino Sketch
 
 ---
 
 ### 5. Head
 
+In the next steps the head of the purifier is built. Full part list here: [Head](../unit_purifier/unit_head).
+
+5.1 Lower head
+
+Print [Lower head](../unit_purifier/unit_head/print_outer_controls.stl). Note that this part is printed upside down. Use pliers to remove supports, then clean up the the openings for the display and the potentiometer until they fit properly. Remove display and potentiometer again, they will be finally inserted in a later step.
+
+![Step 5.1](./assembly_51.png)
+
+5.2 Upper head
+
+Print [Upper head](../unit_purifier/unit_head/print_outer_ring.stl). Note that this part is printed upside down. Place The upper head into Lower head and glue them together. Before applying glue, please check that the glue you are using works good with PLA. I used "UHU Hartplastik", which you can get in most hardware stores where i live.
+
+After the glue has dried, sand the outfacing surface of the head, then spray paint the outside in multiple, thin layers. Like with the glue be sure that the spray you are using does not negatively affect your materials.
+
+![Step 5.2](./assembly_52.png)
+
+5.3 Head Connector
+
+Print [Head Connector](../unit_purifier/unit_head/print_outer_connect.stl). Note that the part is printed upside down. Cut a piece of 2mm foam rubber to match the bottom surface, cut holes where screws and cable outlets are, then glue the foam rubber in place. Again be sure the glue does not harm both foam rubber and PLA.
+
+![Step 5.3](./assembly_53.png)
+
+5.4 Inner Head
+
+Print [Inner Head](../unit_purifier/unit_head/print_outer_outlet.stl). Note that the part is printed upside down. Use a 4mm drill to open the screwholes in this part. Use a M4 screw of appropriate length to pull M4 nuts into their seats in this part. Sand inner surface and spray paint for a good surface finish.
+
+![Step 5.4](./assembly_54.png)
+
+5.5 Head Assembly
+
+Reinsert display and potentiometer into the outer ring. Use the nut provided with the potentiometer to tighten it in place. Slide in the flat connector ring from underneath. Slide in the Inner head from the upside. Be careful not to harm the display and potentiometer cables, which should be passing through adjacent cable outlets now.
+
+Use M4 screws to screw the connector and the inner part together. When done, the purifier head should look like this.
+
+![Step 5.5](./assembly_55.png)
+
+---
+
+### 6. Head
+
 Let's add a housing around the filter. I split the housing into 6 parts to split up printer time a bit. If you have a printer that can handle large parts with enough precision, you could just merge some parts to save sanding at the part junctions. Full part list here: [Housing](../unit_purifier/unit_honeycomb).
 
-5.1 Lower housing
+6.1 Lower housing
 
 Print [Lower housing](../unit_purifier/unit_honeycomb/print_honeycomb_1.stl). Use pliers to remove supports, then clean the upper and lower bounds with file and sandpaper. I used sandpaper wrapped around a 5mm allen key, thus being able to sand multiple surfaces at once. Cleaning up the hexagon boundary is quite a lot of work, but it ensures a good fit between the housing parts, when they are glued together in a later step.
 
 Widen the 1mm holes to 2mm, then to 3mm. Be careful doing so, but don't worry if one of the hexagons breaks while drilling.
 
-![Step 5.2](./assembly_51.png)
+![Step 6.2](./assembly_61.png)
 
-5.2 Center housing
+6.2 Center housing
 
-Print 4 pieces of [Center housing](../unit_purifier/unit_honeycomb/print_honeycomb_2.stl). Remove supports and apply the cleanup steps described in 5.1.
+Print 4 pieces of [Center housing](../unit_purifier/unit_honeycomb/print_honeycomb_2.stl). Remove supports and apply the cleanup steps described in 6.1.
 
-![Step 5.2](./assembly_52.png)
+![Step 6.2](./assembly_62.png)
 
-5.3 Upper housing
+6.3 Upper housing
 
 Print [Upper housing](../unit_purifier/unit_honeycomb/print_honeycomb_3.stl). Remove supports and apply the cleanup steps described in 5.1., open the 1mm holes to 3mm as described in 5.1.
 
-![Step 5.3](./assembly_53.png)
+![Step 6.3](./assembly_63.png)
 
-5.4 Housing Assembly
+6.4 Housing Assembly
 
 After careful sanding all 6 parts will have a good fit and can be glued together. Be sure to use glue that does not affect PLA negatively, ie. "UHU Hartplastik". Go in steps, apply glue to the lower part, attach the upper part, ensure good alignment then apply pressure i.e. by placing a large book on the upper part, settle, iterate.
 
@@ -201,14 +205,30 @@ Sand the outside of the assembled housing, spray paint for a good finish.
 
 Expect the housing to look like so.
 
-![Step 5.4](./assembly_54.png)
+![Step 6.4](./assembly_64.png)
 
 ---
 
-### 6. Foot
+### 7. Foot
 
 Print [Foot](../unit_purifier/unit_foot/print_outer_foot.stl). Use pliers to clear the hole for the power plug, then cut an 8x1 thread to accomodate the plug's thread. Sand and spray paint for a good finish. Cut 2mm foam rubber to fit both upper and lower side of the foot, then glue it onto the respective surfaces. Again, be sure to use glue that does not interfere with PLA or foam rubber.
 
-![Step 6](./assembly_60.png)
+![Step 7](./assembly_70.png)
+
+---
+
+### 8. Filter
+
+Cut 2mm foam rubber to fit the filter's ~160m diameter top area and glue it to the filter. Depending on the final height of your housing build you may need 2 layers of foam rubber here. Drill a 12mm hole into the bottom of your filter to allow the power cable to exit.
+
+![Step 8](./assembly_80.png)
+
+---
+
+### 9. Cover
+
+Print [Impeller cover](../unit_purifier/unit_cover/print_cover_1.stl) and [Customizeable cover](../unit_purifier/unit_cover/print_cover_2.stl). Sand and spray paint the center for a good finish.
+
+![Step 9](./assembly_90.png)
 
 ---
