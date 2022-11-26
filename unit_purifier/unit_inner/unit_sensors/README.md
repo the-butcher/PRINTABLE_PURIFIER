@@ -81,6 +81,33 @@
 
 ---
 
+## M4 rod (hardware_rod_m2_49)
+
+|   |   |
+| --- | --- |
+| Description | M4 rod, 253mm long, 3 pieces.  |
+| Type | hardware |
+
+---
+
+## M12 nut (hardware_nut_m2)
+
+|   |   |
+| --- | --- |
+| Description | M2 nut. 8 pieces.  |
+| Type | hardware |
+
+---
+
+## M10x1 nut (hardware_nut_m10)
+
+|   |   |
+| --- | --- |
+| Description | M10x1 fine threaded nut. 2 pieces.  |
+| Type | hardware |
+
+---
+
 ## Cleartube (hardware_cleartube_10)
 
 |   |   |

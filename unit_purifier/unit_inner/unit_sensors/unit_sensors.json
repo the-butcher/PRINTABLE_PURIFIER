@@ -12,6 +12,9 @@
         "sensor_pd_m4",
         "sensor_dht22",
         "sensor_vib01",
+        "hardware_rod_m2_49",
+        "hardware_nut_m2",
+        "hardware_nut_m10",
         "hardware_cleartube_10",
         "hardware_cleartube_12"
     ]

@@ -42,11 +42,11 @@
 
 ---
 
-## [Arduino Nano (unit_power)](https://github.com/the-butcher/PRINTABLE_PURIFIER/tree/master/unit_purifier/unit_inner/unit_power)
+## [Motor driver (unit_power)](https://github.com/the-butcher/PRINTABLE_PURIFIER/tree/master/unit_purifier/unit_inner/unit_power)
 
 |   |   |
 | --- | --- |
-| Description | The plate holding the Arduino Nano.  Please step into folder to find more details and printable STL Files. |
+| Description | The plate holding the L298N motor driver.  Please step into folder to find more details and printable STL Files. |
 | Type | assembly |
 
 ---

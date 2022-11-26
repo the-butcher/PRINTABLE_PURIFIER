@@ -1,7 +1,7 @@
 {
     "id": "unit_nano",
-    "title": "Arduino Nano",
-    "description": "The plate holding the Arduino Nano.",
+    "title": "Motor driver",
+    "description": "The plate holding the L298N motor driver.",
     "postprocessing": "",
     "improvements": "",
     "parts": [

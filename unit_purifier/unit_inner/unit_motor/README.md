@@ -47,11 +47,11 @@
 
 ---
 
-## M3 flatheaded screw (hardware_flat_allen_m3)
+## M3 lens head (hardware_flat_allen_m3)
 
 |   |   |
 | --- | --- |
-| Description | M3 flatheaded allen screw, 10mm long, 2 pieces.  |
+| Description | M3 lens head allen screw, 10mm long, 2 pieces.  |
 | Type | hardware |
 
 ---
@@ -79,6 +79,15 @@
 |   |   |
 | --- | --- |
 | Description | Aluminum Tube 8x1mm 70mm long.  |
+| Type | hardware |
+
+---
+
+## M10x1 nut (hardware_nut_m10)
+
+|   |   |
+| --- | --- |
+| Description | M10x1 fine threaded nut.  |
 | Type | hardware |
 
 ---

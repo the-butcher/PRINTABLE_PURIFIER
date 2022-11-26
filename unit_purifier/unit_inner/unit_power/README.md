@@ -1,8 +1,8 @@
-# Arduino Nano (unit_nano)
+# Motor driver (unit_nano)
 
 |   |   |
 | --- | --- |
-| Description | The plate holding the Arduino Nano.  |
+| Description | The plate holding the L298N motor driver.  |
 | Type | assembly |
 
 ---
