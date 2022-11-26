@@ -1,4 +1,4 @@
-# Purifier inners. (unit_inner)
+# Purifier inners (unit_inner)
 
 |   |   |
 | --- | --- |
@@ -6,7 +6,7 @@
 | Type | assembly |
 
 ---
-## [Impeller hub (unit_hub)](https://github.com/the-butcher/PRINTABLE_PURIFIER/tree/master/unit_purifier/unit_inner/unit_hub)
+## [Hub (unit_hub)](https://github.com/the-butcher/PRINTABLE_PURIFIER/tree/master/unit_purifier/unit_inner/unit_hub)
 
 |   |   |
 | --- | --- |

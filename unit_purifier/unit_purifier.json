@@ -5,12 +5,12 @@
     "postprocessing": "Please refer to postprocessing information of the respective parts.",
     "improvements": "",
     "parts": [
-        "unit_inner",
         "unit_impeller",
-        "unit_cover",
-        "unit_honeycomb",
+        "unit_inner",
         "unit_head",
+        "unit_honeycomb",
         "unit_foot",
+        "unit_cover",
         "unit_filter"
     ]
 }

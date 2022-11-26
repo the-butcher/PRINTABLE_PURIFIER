@@ -7,18 +7,6 @@
 | Type | assembly |
 
 ---
-## [Purifier inners. (unit_inner)](https://github.com/the-butcher/PRINTABLE_PURIFIER/tree/master/unit_purifier/unit_inner)
-
-|   |   |
-| --- | --- |
-| Description | The purifiers electronics were placed to inside the the filter. This part assembles motor, sensors, an arduino nano and the motor driver.  Please step into folder to find more details and printable STL Files. |
-| Type | assembly |
-
----
-![unit_inner](https://github.com/the-butcher/PRINTABLE_PURIFIER/blob/master/unit_purifier/unit_inner.gif?raw=true)
-
----
-
 ## [Impeller (unit_impeller)](https://github.com/the-butcher/PRINTABLE_PURIFIER/tree/master/unit_purifier/unit_impeller)
 
 |   |   |
@@ -31,27 +19,15 @@
 
 ---
 
-## [Air outlet (unit_cover)](https://github.com/the-butcher/PRINTABLE_PURIFIER/tree/master/unit_purifier/unit_cover)
+## [Purifier inners (unit_inner)](https://github.com/the-butcher/PRINTABLE_PURIFIER/tree/master/unit_purifier/unit_inner)
 
 |   |   |
 | --- | --- |
-| Description | Air outlet assembly.  Please step into folder to find more details and printable STL Files. |
+| Description | The purifiers electronics were placed to inside the the filter. This part assembles motor, sensors, an arduino nano and the motor driver.  Please step into folder to find more details and printable STL Files. |
 | Type | assembly |
 
 ---
-![unit_cover](https://github.com/the-butcher/PRINTABLE_PURIFIER/blob/master/unit_purifier/unit_cover.gif?raw=true)
-
----
-
-## [Housing (unit_honeycomb)](https://github.com/the-butcher/PRINTABLE_PURIFIER/tree/master/unit_purifier/unit_honeycomb)
-
-|   |   |
-| --- | --- |
-| Description | Housing around the Xiami Hepa filter.  Please step into folder to find more details and printable STL Files. |
-| Type | assembly |
-
----
-![unit_honeycomb](https://github.com/the-butcher/PRINTABLE_PURIFIER/blob/master/unit_purifier/unit_honeycomb.gif?raw=true)
+![unit_inner](https://github.com/the-butcher/PRINTABLE_PURIFIER/blob/master/unit_purifier/unit_inner.gif?raw=true)
 
 ---
 
@@ -69,6 +45,18 @@
 
 ---
 
+## [Housing (unit_honeycomb)](https://github.com/the-butcher/PRINTABLE_PURIFIER/tree/master/unit_purifier/unit_honeycomb)
+
+|   |   |
+| --- | --- |
+| Description | Housing around the Xiami Hepa filter.  Please step into folder to find more details and printable STL Files. |
+| Type | assembly |
+
+---
+![unit_honeycomb](https://github.com/the-butcher/PRINTABLE_PURIFIER/blob/master/unit_purifier/unit_honeycomb.gif?raw=true)
+
+---
+
 ## [Foot (unit_foot)](https://github.com/the-butcher/PRINTABLE_PURIFIER/tree/master/unit_purifier/unit_foot)
 
 |   |   |
@@ -78,6 +66,18 @@
 
 ---
 ![unit_foot](https://github.com/the-butcher/PRINTABLE_PURIFIER/blob/master/unit_purifier/unit_foot.gif?raw=true)
+
+---
+
+## [Air outlet (unit_cover)](https://github.com/the-butcher/PRINTABLE_PURIFIER/tree/master/unit_purifier/unit_cover)
+
+|   |   |
+| --- | --- |
+| Description | Air outlet assembly.  Please step into folder to find more details and printable STL Files. |
+| Type | assembly |
+
+---
+![unit_cover](https://github.com/the-butcher/PRINTABLE_PURIFIER/blob/master/unit_purifier/unit_cover.gif?raw=true)
 
 ---
 

@@ -1,4 +1,4 @@
-# Impeller hub (unit hub)
+# Hub (unit hub)
 
 |   |   |
 | --- | --- |
@@ -20,12 +20,12 @@
 
 ---
 
-## Upper part of the hub. (print_hub_2) &rarr; [STL File](https://github.com/the-butcher/PRINTABLE_PURIFIER/blob/master/unit_purifier/unit_inner/unit_hub/print_hub_2.stl)
+## Upper hub. (print_hub_2) &rarr; [STL File](https://github.com/the-butcher/PRINTABLE_PURIFIER/blob/master/unit_purifier/unit_inner/unit_hub/print_hub_2.stl)
 
 |   |   |
 | --- | --- |
 | Description | The upper part of the impeller hub.  |
-| Postprocessing | Remove support from the opening where the dust sensors tub passed through. Later place electric tape over the unused openings. |
+| Postprocessing | Remove support from the opening where the dust sensors tub passed through. Later place electric tape over the unused outlet openings. |
 | Type | 3D print |
 
 ---
