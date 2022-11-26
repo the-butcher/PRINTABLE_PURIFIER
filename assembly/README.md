@@ -1,72 +1,124 @@
 # PRINTABLE PURIFIER ASSEMBLY
 
-### 1. Hub and Impeller 1
+### 1. Hub 1 and Impeller 1
 ![Step 1](./assembly_10.png)
 
-This is the most critical step, so let's get it done first to be able to adapt to it later. Be sure the z-axis of your printer is perpendicular to the bed, or your impeller will get a bad wobble.
+The perhaps most challenging step in this build comes first. Be sure the z-axis of your printer is perpendicular to the bed, or your impeller will get a bad wobble.
 
-Print [Lower hub](../unit_purifier/unit_inner/unit_hub/print_hub_1.stl) and [Lower impeller](../unit_purifier/unit_impeller/print_impeller_1.stl) first and make the [Impeller mount](../unit_purifier/unit_inner/unit_motor/lathe_motor_connect.stl) or have it made. Get a 555-1 type motor and have two flat M3 screws ready.
+Print [Lower hub](../unit_purifier/unit_inner/unit_hub/print_hub_1.stl) and [Lower impeller](../unit_purifier/unit_impeller/print_impeller_1.stl) and make the [Impeller mount](../unit_purifier/unit_inner/unit_motor/lathe_motor_connect.stl) or have it made. A 555-1 type motor is needed and two flat M3 screws to fix the motor to the hub.
 
-The impeller may have require balancing initially. I build a very simple balancing utility to find the heavier side of the impeller, but you could also just mount the impeller on a 10mm rod, then put both ends of the rod on equal height and horizontal surfaces. The impeller would then roll back and forth to find its balance. Another way is balancing by trial and error while mounted.
+The impeller will require balancing after printing. This can be done by adding counterweights to one or more holes provided in the printed impeller. I cut pieces off a 6mm brass rod and used those as counterweights.
+
+I built a very simple balancing tool to find the heavier side of the impeller, but you could also just mount the impeller on a 10mm rod, then put both ends of the rod on horizontal surfaces of equal height. The impeller can then roll back and forth to find its balance. At first the impeller will want to settle in a specific position. Add counterweights until the impeller appears not to have a specific settling point any more.
+
+You can also balance by trial and error while in the hub, but this can be lengthy process requiring a lot of patience.
 
 ![Step 1](./assembly_11.png)
 
-Insert counterweights into the provided 6mm holes as required until vibration is tolerable when the impeller is spinning in the hub. I used 6mm brass rod pieces as counterweights.
+Insert counterweights into the provided 6mm holes as required until vibration is tolerable when the impeller is powered by the motor and spinning in the hub.
 
-### 2. Hub and Impeller 2
+### 2. Hub 2 and Impeller 2
 
-Print [Upper hub](../unit_purifier/unit_inner/unit_hub/print_hub_2.stl) and [Upper impeller](../unit_purifier/unit_impeller/print_impeller_2.stl). Have M4 screws and 20MM M4 nuts ready. Repeat balancing with the upper impeller. I got the 20mm long M4 nuts in electronics supply rather than in a hardware store.
+Print [Upper hub](../unit_purifier/unit_inner/unit_hub/print_hub_2.stl) and [Upper impeller](../unit_purifier/unit_impeller/print_impeller_2.stl). M4 screws and 20MM M4 nuts are needed to connect the two hub parts. I got the 20mm long M4 nuts in electronics supply.
+
+Repeat balancing with the upper impeller.
 
 ![Step 2](./assembly_20.png)
 
 ### 3. Inners
 
-In the next steps the inner parts of the purifier is built.
+In the next steps the inner parts of the purifier are built.
 
 3.1 Power
 
-Build power unit as described in [Power](../unit_purifier/unit_inner/unit_power). Connect wires as of L298N Motor Controller documentation. Soldering is required to connect the 5V output of the L298N to the 6 power terminal power pin headers and to connect the 6 ground pin headers to ground.
+Build power unit from the parts listed in [Power](../unit_purifier/unit_inner/unit_power). Connect 12V power cable to the VS pin of the controller. Connect ground to the GND pin of the controller. Connect the controllers 5V pin to all six 5V pins (these will later provide power to arduino, sensors, ...). Connect the GNF pin of the controller (now two cables in the GND pin) to all six GND pins (these will later be the GND pins for arduino, sensors, ...).
+
+Soldering is required to connect the 5V output of the L298N to the power pins and to connect the GND pin to the GND pins.
+
+Please refer to [Interface L298N DC Motor Driver Module with Arduino](https://lastminuteengineers.com/l298n-dc-stepper-driver-arduino-tutorial/) for more information.
 
 ![Step 3.1](./assembly_31.png)
 
 3.2 Arduino
 
-Build arduino unit as described in [Arduino](../unit_purifier/unit_inner/arduino_nano). No cables yet.
+Build arduino unit from the parts listed in [Arduino](../unit_purifier/unit_inner/arduino_nano). No cables yet.
 
 ![Step 3.2](./assembly_32.png)
 
 3.3 Sensors
 
-Build sensor unit as described in [Sensors](../unit_purifier/unit_inner/unit_sensors). No cables other than the vibration sensors own cables yet.
+Build sensor unit from the parts listed in [Sensors](../unit_purifier/unit_inner/unit_sensors). No cables other than the vibration sensors internal cable yet.
 
 ![Step 3.3](./assembly_33.png)
 
 3.4 Motor
 
-Build Motor assembly from part descriptions in [Motor assembly](../unit_purifier/unit_inner/unit_motor).
+Build Motor assembly from from the parts listed in [Motor assembly](../unit_purifier/unit_inner/unit_motor).
 
 ![Step 3.4](./assembly_34.png)
 
 3.5 Inner Assembly
 
-Assemble hub, motor, sensors, arduino and power units to the full inner unit.
+Assemble hub, motor, sensors, arduino and power units to the full inner unit with the parts listed in [Screws](../unit_purifier/unit_inner/unit_screws).
 
 ![Step 3.5](./assembly_35.png)
 
 3.6 Arduino Wiring
 
-Connect the Arduino VIN pin to one of the 5V pins. Connect the Arduino GND pin to one of the ground pins.
+Connect the Arduino VIN pin to one of the 5V pins on the power unit. Connect the Arduino GND pin to one of the ground pins on the power unit.
 
 ![Step 3.6](./assembly_36.png)
 
 3.7 Motor wiring
 
-Connect the Arduino D9 pin to the L298N ENA pin. Connect the Arduino D8 pin to the L298N IN1 pin. Connect the Arduino D7 pin to the L298N IN2 pin. Connect the L298N OUT1 pin to one of the motor's pins. onnect the L298N OUT2 pin to the other motor pin. It does not matter which motor pins are connected, you can set motor direction later from the arduino sketch. Refer to [Interface L298N DC Motor Driver Module with Arduino](https://lastminuteengineers.com/l298n-dc-stepper-driver-arduino-tutorial/) for more information.
+Connect the Arduino D9 pin to the L298N ENA pin. Connect the Arduino D8 pin to the L298N IN1 pin. Connect the Arduino D7 pin to the L298N IN2 pin. Then connect the L298N OUT1 pin to one of the motor's pins and connect the L298N OUT2 pin to the other motor pin. It does not matter which motor pins are connected, you can set motor direction later from the arduino sketch. Please refer to [Interface L298N DC Motor Driver Module with Arduino](https://lastminuteengineers.com/l298n-dc-stepper-driver-arduino-tutorial/) for more information.
 
 ![Step 3.7](./assembly_37.png)
 
 3.8 Dust Sensor wiring
 
-Connect the Arduino D3 pin to the dusst sensor digital cable. Connect the dust sensor power cable to one of the 5V pins. Connect the dust sensor ground cable to one of the ground pins. Refer to [PM-D4](http://www.csfan.co.kr/bbs/board.php?bo_table=products1&wr_id=15&ckattempt=1) for more information.
+Connect the Arduino D3 pin to the dust sensor digital cable. Connect the dust sensor power cable to one of the 5V pins. Connect the dust sensor ground cable to one of the ground pins. Please refer to [PM-D4](http://www.csfan.co.kr/bbs/board.php?bo_table=products1&wr_id=15&ckattempt=1) for more information.
 
 ![Step 3.8](./assembly_38.png)
+
+3.9 Temperature and Humidity Sensor wiring
+
+Connect the Arduino D4 pin to the DHT22 sensor output pin. Connect the DHT22 sensor power pin to one of the 5V pins. Connect the DHT22 sensor GND pin to one of the ground pins. Please refer to [DHT 22](https://joy-it.net/de/products/SEN-DHT22) for more information.
+
+![Step 3.9](./assembly_39.png)
+
+3.10 Vibration Sensor wiring
+
+Connect the Aeduino A1 pin to the vibration sensor output pin. Connect the vibration sensor GND pin to one of the ground pins. The vibration sensor does not need power input!
+
+Please refer to [VIB 01](https://joy-it.net/de/products/SEN-VIB01) for more information.
+
+![Step 3.10](./assembly_310.png)
+
+3.11 Potentiometer wiring
+
+Connect the Arduino A0 pin to a 20cm yellow cable. Connect a 20 cm red cable one of the 5V pins. Connect a 20 cm black cable to one of the ground pins.
+
+![Step 3.11](./assembly_311a.png)
+
+Solder a 10cm yellow cable to the potentiometer signal pin. Solder a 10cm red cable to the potentiometer VC pin. Solder a 10cm black cable to the potentiometer GND pin. Later the cables from the potentiometer will be stuck through one of the hub openings and connected to the respective inner cables.
+
+![Step 3.11](./assembly_311b.png)
+
+3.12 Display wiring
+
+Connect the Arduino A4 (SDA) pin to a 20cm yellow cable. Connect the Arduino A5 (SCL) pin to a 20cm blue cable. Connect a 20 cm red cable one of the 5V pins. Connect a 20 cm black cable to one of the ground pins.
+
+![Step 3.12](./assembly_312a.png)
+
+Connect a 10cm yellow cable to the display's SDA pin.  Connect a 10cm blue cable to the display's SCL pin. Connect a 10cm red cable to the display's VCC pin. Connect a 10cm black cable to the display's GND pin. Later the cables from the display will be stuck through one of the hub openings and connected to the respective inner cables.
+
+![Step 3.12](./assembly_312b.png)
+
+Please refer to [0.96 INCH OLED SCREEN WITH I2C](https://whadda.com/product/0-96-inch-oled-screen-with-i2c-wpi438/) for more information.
+
+3.13 Wiring completed
+
+With all cables in place, the inner unit should look like this.
+
+![Step 3.13](./assembly_313.png)
