@@ -6,6 +6,6 @@ This project provides instructions for an arduino powered air purifier, created 
 
 ## [BUILDING INSTRUCTIONS](https://github.com/the-butcher/PRINTABLE_PURIFIER/tree/master/building_instructions/README.md)
 
-## [PARTS](https://github.com/the-butcher/PRINTABLE_PURIFIER/tree/master/unit_purifier)
+## [PART DETAILS](https://github.com/the-butcher/PRINTABLE_PURIFIER/tree/master/unit_purifier)
 
 ## [PICTURES](https://github.com/the-butcher/PRINTABLE_PURIFIER/tree/master/PICTURES.md)

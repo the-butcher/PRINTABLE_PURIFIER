@@ -239,4 +239,48 @@ Print [Impeller cover](../unit_purifier/unit_cover/print_cover_1.stl) and [Custo
 
 ### 10. Final assembly
 
+Now everything is ready to assemble your purifier to a fully functional device.
+
+10.1 Attach Head to Inner
+
+Slide the head assembly onto the inner assembly. While doing so, put the display and potentiometer cables through their respective outlets. Once the head assembly is seated, connect the 10cm display and potentiometer cable with their 20cm internal counterparts.
+
+![Step 10](./assembly_101.png)
+
+10.2 Insert distance holders
+
+I had the issue that Head and Hub would not be concentric, so i inserted stripes that i had cut from a plastic bottle. The occasional impeller rub went away after inserting the stripes.
+
+![Step 10](./assembly_102.png)
+
+10.3 Upside down
+
+Press Head assembly and Inner assemble against each other and turn everthing upside down. The Inner assembly should now rest on the Head assembly.
+
+![Step 10](./assembly_103.png)
+
+10.4 Add filter
+
+Slide the power cable through the 12mm hole in the filter bottom (see Step 8) and lower the filter onto the Inner assembly.
+
+![Step 10](./assembly_104.png)
+
+10.5 Add Housing
+
+Lower the housing onto the assembly, be sure that the holes in the housing align with the holes in the Head assembly. Insert M3 lenshead screws to attach housing.
+
+![Step 10](./assembly_105.png)
+
+10.6 Add Foot
+
+Attach the Foot assembly using M3 lenhead screws. Screw the power cable plug into the foot from the inside. Push the remaining power cable back into the filter, then close the 12mm hole with tape.
+
+![Step 10](./assembly_106.png)
+
+10.7 Turn back around, add Impeller and Cover
+
+Turn the purifier back to it's upright position, insert the Impeller assembly, tighten with M10 nut. Insert the Cover assembly to complete assembly.
+
+![Step 10](./assembly_107.png)
+
 
