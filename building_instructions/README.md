@@ -131,9 +131,9 @@ With all cables in place, the inner unit should look like this.
 
 ### 4. Arduino Sketch
 
-<mark>IMPORTANT: when you are connecting a USB cable to your Arduino, you must disconnect the arduino from the inner power supply, since it will then get it's power through USB.</mark>
+**IMPORTANT: when you are connecting a USB cable to your Arduino, you must disconnect the arduino from the inner power supply, since it will then get it's power through USB. I pulled the VIN cable when uploading new code, but left the GND connected to the motor controller. After the code does what it should disconnect both USB and 12V power supply, then reconnect the VIN cable to the controller, then power up the now standalone system with 12V.**
 
-Please find the arduino sketch that i am using currently here [Sketcj](../unit_purifier/code/sketch_purifier/sketch_purifier.ino). I will describe the sketch in more detail when time allows.
+Please find the arduino sketch that i am using here [Sketch](../code/sketch_purifier/sketch_purifier.ino). I will describe the sketch in more detail when time allows.
 
 ---
 
@@ -236,3 +236,7 @@ Print [Impeller cover](../unit_purifier/unit_cover/print_cover_1.stl) and [Custo
 ![Step 9](./assembly_90.png)
 
 ---
+
+### 10. Final assembly
+
+
