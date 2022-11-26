@@ -43,7 +43,7 @@
 
 |   |   |
 | --- | --- |
-| Description | Power plug 5.5x2.1 mm.  |
+| Description | Power plug 5.5x2.1 mm. ![Power Plug](https://github.com/the-butcher/PRINTABLE_PURIFIER/blob/master/unit_purifier/unit_inner/unit_power/driver_plug_5521.png?raw=true)  |
 | Type | electronic |
 
 ---
