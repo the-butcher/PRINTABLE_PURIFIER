@@ -131,6 +131,10 @@ With all cables in place, the inner unit should look like this.
 
 ### 4. Arduino Sketch
 
+<mark>IMPORTANT: when you are connecting a USB cable to your Arduino, you must disconnect the arduino from the inner power supply, since it will then get it's power through USB.</mark>
+
+Please find the arduino sketch that i am using currently here [Sketcj](../unit_purifier/code/sketch_purifier/sketch_purifier.ino). I will describe the sketch in more detail when time allows.
+
 ---
 
 ### 5. Head
