@@ -81,11 +81,11 @@
 
 ---
 
-## M4 rod (hardware_rod_m2_49)
+## M2 rod (hardware_rod_m2_49)
 
 |   |   |
 | --- | --- |
-| Description | M4 rod, 253mm long, 3 pieces.  |
+| Description | M2 rod, 49mm long, 4 pieces.  |
 | Type | hardware |
 
 ---
