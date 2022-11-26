@@ -39,3 +39,12 @@
 
 ---
 
+## Power plug (driver_plug_5521)
+
+|   |   |
+| --- | --- |
+| Description | Power plug 5.5x2.1 mm.  |
+| Type | electronic |
+
+---
+

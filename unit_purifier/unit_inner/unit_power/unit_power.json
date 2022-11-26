@@ -7,6 +7,7 @@
     "parts": [
         "print_holder_power_1",
         "print_holder_power_2",
-        "driver_l298n"
+        "driver_l298n",
+        "driver_plug_5521"
     ]
 }
