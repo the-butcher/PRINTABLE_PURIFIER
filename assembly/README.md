@@ -166,3 +166,5 @@ Reinsert display and potentiometer into the outer ring. Use the nut provided wit
 Use M4 screws to screw the connector and the inner part together. When done, the purifier head should look like this.
 
 ![Step 4.5](./assembly_45.png)
+
+---

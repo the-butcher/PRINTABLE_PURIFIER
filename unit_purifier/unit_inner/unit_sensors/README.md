@@ -81,3 +81,21 @@
 
 ---
 
+## Cleartube (hardware_cleartube_10)
+
+|   |   |
+| --- | --- |
+| Description | Cleartube, 10mm diameter, ~140mm long.  |
+| Type | hardware |
+
+---
+
+## Cleartube (hardware_cleartube_12)
+
+|   |   |
+| --- | --- |
+| Description | Cleartube, 12mm diameter, 20mm long.  |
+| Type | hardware |
+
+---
+

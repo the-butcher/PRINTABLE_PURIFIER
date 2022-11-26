@@ -11,6 +11,8 @@
         "print_holder_sensors_4",
         "sensor_pd_m4",
         "sensor_dht22",
-        "sensor_vib01"
+        "sensor_vib01",
+        "hardware_cleartube_10",
+        "hardware_cleartube_12"
     ]
 }
