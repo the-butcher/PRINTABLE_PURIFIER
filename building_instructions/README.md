@@ -1,4 +1,4 @@
-# PRINTABLE PURIFIER ASSEMBLY
+# PRINTABLE PURIFIER BUILDING INSTRUCTIONS
 
 ### 1. Hub 1 and Impeller 1
 ![Step 1](./assembly_10.png)
@@ -45,7 +45,7 @@ Please refer to [Interface L298N DC Motor Driver Module with Arduino](https://la
 
 3.2 Arduino
 
-Build arduino unit from the parts listed in [Arduino](../unit_purifier/unit_inner/arduino_nano). No cables yet.
+Build arduino unit from the parts listed in [Arduino](../unit_purifier/unit_inner/unit_nano). No cables yet.
 
 ![Step 3.2](./assembly_32.png)
 
@@ -135,13 +135,13 @@ In the next steps the head of the purifier is built. Full part list here: [Head]
 
 4.1 Lower head
 
-Print [Lower head](../unit_purifier/unit_inner/unit_head/print_outer_controls.stl). Note that this part is printed upside down. Use pliers to remove supports, then clean up the the openings for the display and the potentiometer until they fit properly. Remove display and potentiometer again, they will be finally inserted in a later step.
+Print [Lower head](../unit_purifier/unit_head/print_outer_controls.stl). Note that this part is printed upside down. Use pliers to remove supports, then clean up the the openings for the display and the potentiometer until they fit properly. Remove display and potentiometer again, they will be finally inserted in a later step.
 
 ![Step 4.1](./assembly_41.png)
 
 4.2 Upper head
 
-Print [Upper head](../unit_purifier/unit_inner/unit_head/print_outer_ring.stl). Note that this part is printed upside down. Place The upper head into Lower head and glue them together. Before applying glue, please check that the glue you are using works good with PLA. I used "UHU Hartplastik", which you can get in most hardware stores where i live.
+Print [Upper head](../unit_purifier/unit_head/print_outer_ring.stl). Note that this part is printed upside down. Place The upper head into Lower head and glue them together. Before applying glue, please check that the glue you are using works good with PLA. I used "UHU Hartplastik", which you can get in most hardware stores where i live.
 
 After the glue has dried, sand the outfacing surface of the head, then spray paint the outside in multiple, thin layers. Like with the glue be sure in advance that the spray you are using does not negatively affect your material.
 
@@ -149,13 +149,13 @@ After the glue has dried, sand the outfacing surface of the head, then spray pai
 
 4.3 Head Connector
 
-Print [Head Connector](../unit_purifier/unit_inner/unit_head/print_outer_connect.stl). Note that the part is printed upside down. Cut a piece of 2mm foam rubber to match the bottom surface, cut holes where screws and cable outlets are, then glue the foam rubber in place. Again be sure the glue does not harm both foam rubber and PLA.
+Print [Head Connector](../unit_purifier/unit_head/print_outer_connect.stl). Note that the part is printed upside down. Cut a piece of 2mm foam rubber to match the bottom surface, cut holes where screws and cable outlets are, then glue the foam rubber in place. Again be sure the glue does not harm both foam rubber and PLA.
 
 ![Step 4.2](./assembly_43.png)
 
 4.4 Inner Head
 
-Print [Inner Head](../unit_purifier/unit_inner/unit_head/print_outer_outlet.stl). Note that the part is printed upside down. Use a 4mm drill to open the screwholes in this part. Use a M4 screw of appropriate length to pull M4 nuts into their seats in this part. Sand inner surface and spray paint for a good surface finish.
+Print [Inner Head](../unit_purifier/unit_head/print_outer_outlet.stl). Note that the part is printed upside down. Use a 4mm drill to open the screwholes in this part. Use a M4 screw of appropriate length to pull M4 nuts into their seats in this part. Sand inner surface and spray paint for a good surface finish.
 
 ![Step 4.2](./assembly_44.png)
 
