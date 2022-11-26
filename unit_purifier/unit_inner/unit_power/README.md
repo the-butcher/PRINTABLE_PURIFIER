@@ -1,4 +1,4 @@
-# Motor driver (unit_nano)
+# Motor driver (unit_power)
 
 |   |   |
 | --- | --- |

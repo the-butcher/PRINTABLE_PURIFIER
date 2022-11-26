@@ -1,5 +1,5 @@
 {
-    "id": "unit_nano",
+    "id": "unit_power",
     "title": "Motor driver",
     "description": "The plate holding the L298N motor driver.",
     "postprocessing": "",
