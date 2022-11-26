@@ -5,7 +5,7 @@
 
 The perhaps most challenging step in this build comes first. Be sure the z-axis of your printer is perpendicular to the bed, or your impeller will get a bad wobble.
 
-Print [Lower hub](../unit_purifier/unit_inner/unit_hub/print_hub_1.stl) and [Lower impeller](../unit_purifier/unit_impeller/print_impeller_1.stl) and make the [Impeller mount](../unit_purifier/unit_inner/unit_motor/lathe_motor_connect.stl) or have it made. A 555-1 type motor is needed and two flat M3 screws to fix the motor to the hub.
+Print [Lower hub](../unit_purifier/unit_inner/unit_hub/print_hub_1.stl) and [Lower impeller](../unit_purifier/unit_impeller/print_impeller_1.stl). Note that Lower hub is printed upside down. Use pliers to remove supports from the hub. Make the [Impeller mount](../unit_purifier/unit_inner/unit_motor/lathe_motor_connect.stl) or have it made. A 555-1 type motor is needed and two flat M3 screws to fix the motor to the hub.
 
 The impeller will require balancing after printing. This can be done by adding counterweights to one or more holes provided in the printed impeller. I cut pieces off a 6mm brass rod and used those as counterweights.
 
@@ -17,13 +17,17 @@ You can also balance by trial and error while in the hub, but this can be length
 
 Insert counterweights into the provided 6mm holes as required until vibration is tolerable when the impeller is powered by the motor and spinning in the hub.
 
+---
+
 ### 2. Hub 2 and Impeller 2
 
-Print [Upper hub](../unit_purifier/unit_inner/unit_hub/print_hub_2.stl) and [Upper impeller](../unit_purifier/unit_impeller/print_impeller_2.stl). M4 screws and 20MM M4 nuts are needed to connect the two hub parts. I got the 20mm long M4 nuts in electronics supply.
+Print [Upper hub](../unit_purifier/unit_inner/unit_hub/print_hub_2.stl) and [Upper impeller](../unit_purifier/unit_impeller/print_impeller_2.stl). M4 screws and 20MM M4 nuts are needed to connect the two hub parts. When you have a hard time finding the long M4 nuts search in electronics supply, these are used in computer builds, so you will hav good chanced to find them there. You will have to use a long M4 screw to pull the nuts into their seat in the lower hub, where they should find a firm fit.
 
 Repeat balancing with the upper impeller.
 
 ![Step 2](./assembly_20.png)
+
+---
 
 ### 3. Inners
 
@@ -122,3 +126,43 @@ Please refer to [0.96 INCH OLED SCREEN WITH I2C](https://whadda.com/product/0-96
 With all cables in place, the inner unit should look like this.
 
 ![Step 3.13](./assembly_313.png)
+
+---
+
+### 4. Head
+
+In the next steps the head of the purifier is built. Full part list here: [Head](../unit_purifier/unit_head).
+
+4.1 Lower head
+
+Print [Lower head](../unit_purifier/unit_inner/unit_head/print_outer_controls.stl). Note that this part is printed upside down. Use pliers to remove supports, then clean up the the openings for the display and the potentiometer until they fit properly. Remove display and potentiometer again, they will be finally inserted in a later step.
+
+![Step 4.1](./assembly_41.png)
+
+4.2 Upper head
+
+Print [Upper head](../unit_purifier/unit_inner/unit_head/print_outer_ring.stl). Note that this part is printed upside down. Place The upper head into Lower head and glue them together. Before applying glue, please check that the glue you are using works good with PLA. I used "UHU Hartplastik", which you can get in most hardware stores where i live.
+
+After the glue has dried, sand the outfacing surface of the head, then spray paint the outside in multiple, thin layers. Like with the glue be sure in advance that the spray you are using does not negatively affect your material.
+
+![Step 4.2](./assembly_42.png)
+
+4.3 Head Connector
+
+Print [Head Connector](../unit_purifier/unit_inner/unit_head/print_outer_connect.stl). Note that the part is printed upside down. Cut a piece of 2mm foam rubber to match the bottom surface, cut holes where screws and cable outlets are, then glue the foam rubber in place. Again be sure the glue does not harm both foam rubber and PLA.
+
+![Step 4.2](./assembly_43.png)
+
+4.4 Inner Head
+
+Print [Inner Head](../unit_purifier/unit_inner/unit_head/print_outer_outlet.stl). Note that the part is printed upside down. Use a 4mm drill to open the screwholes in this part. Use a M4 screw of appropriate length to pull M4 nuts into their seats in this part. Sand inner surface and spray paint for a good surface finish.
+
+![Step 4.2](./assembly_44.png)
+
+3.5 Head Assembly
+
+Reinsert display and potentiometer into the outer ring. Use the nut provided with the potentiometer to tighten it in place. Slide in the flat connector ring from underneath. Slide in the Inner head from the upside. Be careful not to harm the display and potentiometer cables, which should be passing through adjacent cable outlets now.
+
+Use M4 screws to screw the connector and the inner part together. When done, the purifier head should look like this.
+
+![Step 4.5](./assembly_45.png)
