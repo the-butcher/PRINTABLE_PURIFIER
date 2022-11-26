@@ -168,3 +168,47 @@ Use M4 screws to screw the connector and the inner part together. When done, the
 ![Step 4.5](./assembly_45.png)
 
 ---
+
+### 5. Head
+
+Let's add a housing around the filter. I split the housing into 6 parts to split up printer time a bit. If you have a printer that can handle large parts with enough precision, you could just merge some parts to save sanding at the part junctions. Full part list here: [Housing](../unit_purifier/unit_honeycomb).
+
+5.1 Lower housing
+
+Print [Lower housing](../unit_purifier/unit_honeycomb/print_honeycomb_1.stl). Use pliers to remove supports, then clean the upper and lower bounds with file and sandpaper. I used sandpaper wrapped around a 5mm allen key, thus being able to sand multiple surfaces at once. Cleaning up the hexagon boundary is quite a lot of work, but it ensures a good fit between the housing parts, when they are glued together in a later step.
+
+Widen the 1mm holes to 2mm, then to 3mm. Be careful doing so, but don't worry if one of the hexagons breaks while drilling.
+
+![Step 5.2](./assembly_51.png)
+
+5.2 Center housing
+
+Print 4 pieces of [Center housing](../unit_purifier/unit_honeycomb/print_honeycomb_2.stl). Remove supports and apply the cleanup steps described in 5.1.
+
+![Step 5.2](./assembly_52.png)
+
+5.3 Upper housing
+
+Print [Upper housing](../unit_purifier/unit_honeycomb/print_honeycomb_3.stl). Remove supports and apply the cleanup steps described in 5.1., open the 1mm holes to 3mm as described in 5.1.
+
+![Step 5.3](./assembly_53.png)
+
+5.4 Housing Assembly
+
+After careful sanding all 6 parts will have a good fit and can be glued together. Be sure to use glue that does not affect PLA negatively, ie. "UHU Hartplastik". Go in steps, apply glue to the lower part, attach the upper part, ensure good alignment then apply pressure i.e. by placing a large book on the upper part, settle, iterate.
+
+Sand the outside of the assembled housing, spray paint for a good finish.
+
+Expect the housing to look like so.
+
+![Step 5.4](./assembly_54.png)
+
+---
+
+### 6. Foot
+
+Print [Foot](../unit_purifier/unit_foot/print_outer_foot.stl). Use pliers to clear the hole for the power plug, then cut an 8x1 thread to accomodate the plug's thread. Sand and spray paint for a good finish. Cut 2mm foam rubber to fit both upper and lower side of the foot, then glue it onto the respective surfaces. Again, be sure to use glue that does not interfere with PLA or foam rubber.
+
+![Step 6](./assembly_60.png)
+
+---
