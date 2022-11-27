@@ -279,7 +279,7 @@ Attach the Foot assembly using M3 lenhead screws. Screw the power cable plug int
 
 10.7 Turn back around, add Impeller and Cover
 
-Turn the purifier back to it's upright position, insert the Impeller assembly, tighten with M10 nut. Insert the Cover assembly to complete assembly.
+Turn the purifier back to it's upright position, insert the Impeller assembly and tighten with M10 nut. Insert the Cover assembly to complete assembly.
 
 ![Step 10](./assembly_107.png)
 
