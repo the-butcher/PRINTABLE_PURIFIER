@@ -10,8 +10,12 @@ This project provides instructions for an arduino powered air purifier, created 
 
 ## PICTURES
 
-[Purifier](https://github.com/the-butcher/PRINTABLE_PURIFIER/blob/master/purifier_outer.png?raw=true)
+![Purifier](https://github.com/the-butcher/PRINTABLE_PURIFIER/blob/master/purifier_outer.png?raw=true)
 
-[Purifier](https://github.com/the-butcher/PRINTABLE_PURIFIER/blob/master/purifier_inner.png?raw=true)
+![Purifier](https://github.com/the-butcher/PRINTABLE_PURIFIER/blob/master/purifier_inners.png?raw=true)
 
-[Purifier](https://github.com/the-butcher/PRINTABLE_PURIFIER/blob/master/purifier_controls.png?raw=true)
+![Purifier](https://github.com/the-butcher/PRINTABLE_PURIFIER/blob/master/purifier_controls.png?raw=true)
+
+![Purifier](https://github.com/the-butcher/PRINTABLE_PURIFIER/blob/master/purifier_housing.png?raw=true)
+
+![Purifier](https://github.com/the-butcher/PRINTABLE_PURIFIER/blob/master/purifier_cover.png?raw=true)
