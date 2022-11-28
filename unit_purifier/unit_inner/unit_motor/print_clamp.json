@@ -1,8 +1,0 @@
-{
-    "id": "print_clamp",
-    "title": "Clamp",
-    "description": "A clamp that connects the motor to a spring loaded rod actuating the vibration sensor.",
-    "postprocessing": "Use a M4 screw to pull a M4 nut into the hexagonal opening.",
-    "improvements": "",
-    "parts": []
-}

@@ -19,7 +19,7 @@
 
 ---
 
-## Customizeable cover center (print_cover_2) &rarr; [STL File](https://github.com/the-butcher/PRINTABLE_PURIFIER/blob/master/unit_purifier/unit_cover/print_cover_2.stl)
+## Customizeable cover (print_cover_2) &rarr; [STL File](https://github.com/the-butcher/PRINTABLE_PURIFIER/blob/master/unit_purifier/unit_cover/print_cover_2.stl)
 
 |   |   |
 | --- | --- |

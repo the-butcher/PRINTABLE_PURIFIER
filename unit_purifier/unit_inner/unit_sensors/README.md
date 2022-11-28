@@ -72,15 +72,6 @@
 
 ---
 
-## Vibration sensor. (sensor_vib01)
-
-|   |   |
-| --- | --- |
-| Description | The vibration sensor is meant to detect motor movement. Sensor used: ![VIB-01](https://github.com/the-butcher/PRINTABLE_PURIFIER/blob/master/unit_purifier/unit_inner/unit_sensors/sensor_vib01.png?raw=true) [PM-D4](https://joy-it.net/en/products/SEN-VIB01)  |
-| Type | electronic |
-
----
-
 ## M2 rod (hardware_rod_m2_49)
 
 |   |   |

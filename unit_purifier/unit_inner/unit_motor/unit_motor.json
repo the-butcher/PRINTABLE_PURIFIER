@@ -5,15 +5,9 @@
     "postprocessing": "",
     "improvements": "",
     "parts": [
-        "print_clamp",
         "lathe_motor_connect",
-        "lathe_vibrate",
         "motor_555_1",
         "hardware_flat_allen_m3",
-        "hardware_allen_m4_14mm",
-        "hardware_nut_m4",
-        "hardware_tube_8_1_70",
-        "hardware_nut_m10",
-        "hardware_spring"
+        "hardware_nut_m10"
     ]
 }

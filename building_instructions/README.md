@@ -37,13 +37,17 @@ In the next steps the inner parts of the purifier are built.
 
 3.1 Power
 
-Build power unit from the parts listed in [Power](../unit_purifier/unit_inner/unit_power). Connect 12V power cable to the VS pin of the controller. Connect ground to the GND pin of the controller. Connect the controllers 5V pin to all six 5V pins (these will later provide power to arduino, sensors, ...). Connect the GNF pin of the controller (now two cables in the GND pin) to all six GND pins (these will later be the GND pins for arduino, sensors, ...).
+Build power unit from the parts listed in [Power](../unit_purifier/unit_inner/unit_power). Connect a ~50cm long power cable (12V) to the VS pin of the L298N controller. Connect ground to the GND pin of the L298N controller. Connect the L298N controllers 5V pin to all six 5V pins (these will later provide power to arduino, sensors, ...). Connect the GND pin of the L298N controller (now there should two cables in the GND pin) to all six GND pins (these will later be the GND pins for arduino, sensors, ...). Connect the power cable to the 5.5x2.1 plug.
 
-Soldering is required to connect the 5V output of the L298N to the power pins and to connect the GND pin to the GND pins.
+![Step 3.1](./assembly_31a.gif)
+
+Soldering is required to connect the 5V output of the L298N to the power pins, to connect the GND pin to the GND pins and to connect the power cable to the plug.
+
+![Step 3.1](./assembly_31b.png)
 
 Please refer to [Interface L298N DC Motor Driver Module with Arduino](https://lastminuteengineers.com/l298n-dc-stepper-driver-arduino-tutorial/) for more information.
 
-![Step 3.1](./assembly_31.png)
+
 
 3.2 Arduino
 
@@ -53,7 +57,7 @@ Build arduino unit from the parts listed in [Arduino](../unit_purifier/unit_inne
 
 3.3 Sensors
 
-Build sensor unit from the parts listed in [Sensors](../unit_purifier/unit_inner/unit_sensors). No cables other than the vibration sensors internal cable yet.
+Build sensor unit from the parts listed in [Sensors](../unit_purifier/unit_inner/unit_sensors).
 
 ![Step 3.3](./assembly_33.png)
 
@@ -93,41 +97,27 @@ Connect the Arduino D4 pin to the DHT22 sensor output pin. Connect the DHT22 sen
 
 ![Step 3.9](./assembly_39.png)
 
-3.10 Vibration Sensor wiring
-
-Connect the Aeduino A1 pin to the vibration sensor output pin. Connect the vibration sensor GND pin to one of the ground pins. The vibration sensor does not need power input!
-
-Please refer to [VIB 01](https://joy-it.net/de/products/SEN-VIB01) for more information.
-
-![Step 3.10](./assembly_310.png)
-
-3.11 Potentiometer wiring
+3.10 Potentiometer wiring
 
 Connect the Arduino A0 pin to a 20cm yellow cable. Connect a 20 cm red cable one of the 5V pins. Connect a 20 cm black cable to one of the ground pins.
 
-![Step 3.11](./assembly_311a.png)
+![Step 3.10](./assembly_311a.png)
 
 Solder a 10cm yellow cable to the potentiometer signal pin. Solder a 10cm red cable to the potentiometer VC pin. Solder a 10cm black cable to the potentiometer GND pin. Later the cables from the potentiometer will be stuck through one of the hub openings and connected to the respective inner cables.
 
-![Step 3.11](./assembly_311b.png)
+![Step 3.10](./assembly_311b.png)
 
-3.12 Display wiring
+3.11 Display wiring
 
 Connect the Arduino A4 (SDA) pin to a 20cm yellow cable. Connect the Arduino A5 (SCL) pin to a 20cm blue cable. Connect a 20 cm red cable one of the 5V pins. Connect a 20 cm black cable to one of the ground pins.
 
-![Step 3.12](./assembly_312a.png)
+![Step 3.11](./assembly_312a.png)
 
 Connect a 10cm yellow cable to the display's SDA pin.  Connect a 10cm blue cable to the display's SCL pin. Connect a 10cm red cable to the display's VCC pin. Connect a 10cm black cable to the display's GND pin. Later the cables from the display will be stuck through one of the hub openings and connected to the respective inner cables.
 
-![Step 3.12](./assembly_312b.png)
+![Step 3.11](./assembly_312b.png)
 
 Please refer to [0.96 INCH OLED SCREEN WITH I2C](https://whadda.com/product/0-96-inch-oled-screen-with-i2c-wpi438/) for more information.
-
-3.13 Wiring completed
-
-With all cables in place, the inner unit should look like this.
-
-![Step 3.13](./assembly_313.png)
 
 ---
 
@@ -257,7 +247,7 @@ I had the issue that Head and Hub would not be concentric, so i inserted stripes
 
 10.3 Upside down
 
-Press Head assembly and Inner assemble against each other and turn everthing upside down. The Inner assembly should now rest on the Head assembly.
+Press Head assembly and Inner assembly against each other and turn everthing upside down. The Inner assembly should now rest on the Head assembly.
 
 ![Step 10](./assembly_103.png)
 
@@ -275,7 +265,7 @@ Lower the housing onto the assembly, be sure that the holes in the housing align
 
 10.6 Add Foot
 
-Attach the Foot assembly using M3 lenhead screws. Screw the power cable plug into the foot from the inside. Push the remaining power cable back into the filter, then close the 12mm hole with tape.
+Attach the Foot assembly using M3 lenshead screws. Screw the power cable plug into the M8x1 foot from the inside. Push the remaining power cable back into the filter, then close the 12mm hole with tape.
 
 ![Step 10](./assembly_106.png)
 

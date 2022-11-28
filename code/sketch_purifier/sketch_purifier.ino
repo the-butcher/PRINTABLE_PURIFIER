@@ -7,8 +7,6 @@
 
 // port of potentiometer (analog)
 #define PORT__POTENTIOMETER A0
-// port of vibration sensor (analog)
-#define PORT______VIBRATION A1
 
 // ports of dust sensor (digital)
 #define PORT_SENSOR_DUST_RX 3
@@ -60,12 +58,8 @@ int valueMotorMin = 310;
 int valueMotorMax = 511;
 
 // current motor value (on a range from 0-1023), needs to be mapped to valueMotorMin (as of calibration) and valueMotorMax
-int valueMotor = 0;
-
-// current vibration value
-int valueIndexVibr = 0;
-int valueVibr = 0;
-int valueArrayVibr[10];
+int valueMotorCur = 0;
+int valueMotorDst = 0;
 
 void setup(void) {
 
@@ -73,9 +67,7 @@ void setup(void) {
   Serial.begin(9600);
 
   // does nothing
-  setupPotentionmeter(); 
-  // does nothing
-  setupSensorVibration(); 
+  setupPotentionmeter();
 
   // have the display ready to show calibration info
   setupDisplay();
@@ -84,9 +76,9 @@ void setup(void) {
   setupSensorDust();
   setupSensorDht();
 
-  // setup and calibrate motor by measuring vibration
+  // setup motor
   setupMotor();
-  
+
 }
 
 /*
@@ -97,40 +89,33 @@ void setupPotentionmeter() {
 }
 
 /*
- * setup anything vibration related (nothing currently)
- */
-void setupSensorVibration() {
-  // do nothing
-}
-
-/*
  * start the display
  */
 void setupDisplay() {
   u8g.setRot180(); // flip screen
-  u8g.setColorIndex(1); // u8g.getMode() = U8G_MODE_BW 
+  u8g.setColorIndex(1); // u8g.getMode() = U8G_MODE_BW
 }
 
 void setupMotor() {
 
-  // Mehr Infos: https://arduino-projekte.webnode.at/registerprogrammierung/fast-pwm/  
+  // Mehr Infos: https://arduino-projekte.webnode.at/registerprogrammierung/fast-pwm/
   // Löschen der Timer/Counter Control Register A und B
   TCCR1A = 0;
   TCCR1B = 0;
 
   // TODO :: re-check values from documentation
-  TCCR1A |= (1 << WGM11); 
+  TCCR1A |= (1 << WGM11);
   TCCR1B |= (1 << WGM12);
 
   // Vorteiler auf 1 setzen (?)
   TCCR1B |= (1 << CS10);
-  
+
   // Nichtinvertiertes PWM-Signal setzen
   TCCR1A |= (1 << COM1A1);
 
    // PWM-Pin 9 als Ausgang definieren
   DDRB |= (1 << DDB1);
-    
+
   // set pin modes for motor ports
   pinMode(PORT____MOTOR_SPEED, OUTPUT);
   pinMode(PORT____MOTOR_DIR_1, OUTPUT);
@@ -162,13 +147,12 @@ void setupSensorDht() {
   * maps the motor value (0-1023) into the valid motor power range (valueMotorMin -> valueMotorMax)
   */
 void applyMotorSpeed() {
-  OCR1A = map(valueMotor, 0, 1023, valueMotorMin, valueMotorMax);
+  OCR1A = map(valueMotorCur, 0, 1023, valueMotorMin, valueMotorMax);
 }
 
 void loop(void) {
 
   readPotentiometer();
-  readSensorVibration();
 
   if (millis() > 2000 && valueMotorMin > 290) {
     valueMotorMin = 290;
@@ -193,7 +177,7 @@ void loop(void) {
 
 /**
   * read (and invert) the potentiometer value, so 0 is on the very ccw position
-  */ 
+  */
 void readPotentiometer() {
   valuePoti = 1023 - analogRead(PORT__POTENTIOMETER);
 }
@@ -202,20 +186,14 @@ void readPotentiometer() {
   * from dust sensor and potentiometer value calculate motor value
   */
 void calculateMotorValue() {
-    if (valueVibr >= 1023) {
-    valueMotor = max(0, valueMotor - 24);
-  } else {
-    float p = 1000.0f / map(valuePoti, 0, 1023, 500, 2000); // map potentiometer to 1/0.5 -> 1/2.0 (2 -> 0.5)
-    float b = min(valuePm25, 250.0f) / 250.0f; // convert sensor value to 0 -> 1 (mapping 0 to 0, 250 to 1)
-    int _valueMotor = pow(b, p) * 1023;
-    // increment motor value in small steps to get smooth increase of motor power
-    if (_valueMotor > valueMotor) {
-      valueMotor = min(valueMotor + 3, _valueMotor);
-    } else if (_valueMotor < valueMotor) {
-      valueMotor = max(valueMotor - 6, _valueMotor);
-    }
+  float p = 1000.0f / map(valuePoti, 0, 1023, 200, 5000); // map potentiometer to 1/0.2 -> 1/5.0 (5 -> 0.2)
+  float b = min(valuePm25, 250.0f) / 250.0f; // convert sensor value to 0 -> 1 (mapping 0 to 0, 250 to 1)
+  valueMotorDst = pow(b, p) * 1023;
+  // increment motor value in small steps to get smooth increase of motor power
+  if (valueMotorDst > valueMotorCur) {
+    valueMotorCur = min(valueMotorCur + 3, valueMotorDst);} else if (valueMotorDst < valueMotorCur) {
+    valueMotorCur = max(valueMotorCur - 6, valueMotorDst);
   }
-
 }
 
 /**
@@ -250,47 +228,18 @@ void readSensorDust() {
             _valueArrayPm25[j] = swap;
           }
         }
-      }      
+      }
 
       // reassign current value (dropping 2 smallest and 2 largest readings)
       valuePm25 = 0;
       for (int i = 2; i < 8; i++) {
         valuePm25 += valueArrayPm25[i];
       }
-      valuePm25 = valuePm25 / 6;      
+      valuePm25 = valuePm25 / 6;
 
     }
 
-  } 
-
-}
-
-/**
-  * read a vibration value
-  * due to difficulty with obtaining good values a lot of samples are taken
-  * the max value of 1000 samples is obtained 10 times, and an average is built from those 10 values
-  */
-void readSensorVibration() {
-
-  int _valueVibr = 0;
-  for (int i = 0; i < 10; i++) {
-    int loopValueVibr = 0;
-    for (int j = 0; j < 100; j++) {
-      loopValueVibr = max(loopValueVibr, analogRead(PORT______VIBRATION) * 40);
-    }
-    _valueVibr += loopValueVibr;
   }
-  _valueVibr /= 10;
-
-  // store at current position
-  valueArrayVibr[valueIndexVibr++ % 10] = _valueVibr;
-
-  // calculate average of last readings
-  valueVibr = 0;
-  for (int i = 0; i < 10; i++) {
-    valueVibr += valueArrayVibr[i];
-  }
-  valueVibr /= 10;     
 
 }
 
@@ -344,19 +293,19 @@ void redrawDisplayLoop() {
   u8g.drawStr(95, DISPLAY_TEXT_A, "\xb5g/m\xb3");
 
   padFloat(valueTemperature);
-  u8g.drawStr(47, DISPLAY_TEXT_B, CHAR_BUF);  
-  u8g.drawStr(76, DISPLAY_TEXT_B, "\xb0");  
-  u8g.drawStr(83, DISPLAY_TEXT_B, "C");  
+  u8g.drawStr(47, DISPLAY_TEXT_B, CHAR_BUF);
+  u8g.drawStr(76, DISPLAY_TEXT_B, "\xb0");
+  u8g.drawStr(83, DISPLAY_TEXT_B, "C");
 
   padSpace4(valueHumidity);
-  u8g.drawStr(89, DISPLAY_TEXT_B, CHAR_BUF);  
-  u8g.drawStr(119, DISPLAY_TEXT_B, "%");  
+  u8g.drawStr(89, DISPLAY_TEXT_B, CHAR_BUF);
+  u8g.drawStr(119, DISPLAY_TEXT_B, "%");
 
   float lineWidthBase = 83.0f;
 
   int lineWidthA = valuePoti * lineWidthBase / 1023;
-  int lineWidthB = valueMotor * lineWidthBase / 1023;
-  int lineWidthC = valueVibr * lineWidthBase / 1023;
+  int lineWidthB = valueMotorCur * lineWidthBase / 1023;
+  int lineWidthC = valueMotorDst * lineWidthBase / 1023;
 
   u8g.drawFrame(45, DISPLAY_LINE_A - 4, lineWidthBase, 5);
   u8g.drawBox(45, DISPLAY_LINE_A - 4, lineWidthA, 5);
@@ -364,20 +313,20 @@ void redrawDisplayLoop() {
   u8g.drawBox(45, DISPLAY_LINE_B - 4, lineWidthB, 5);
   u8g.drawFrame(45, DISPLAY_LINE_C - 4, lineWidthBase, 5);
   u8g.drawBox(45, DISPLAY_LINE_C - 4, lineWidthC, 5);
- 
+
   u8g.setFont(u8g_font_micro);
 
   padBrack4("GAIN", valuePoti);
-  u8g.drawStr(0, DISPLAY_LINE_A + 1, CHAR_BUF);  
+  u8g.drawStr(0, DISPLAY_LINE_A + 1, CHAR_BUF);
 
-  padBrack4("MOTOR", valueMotor);
-  u8g.drawStr(0, DISPLAY_LINE_B + 1, CHAR_BUF);  
+  padBrack4("MOTOR", valueMotorCur);
+  u8g.drawStr(0, DISPLAY_LINE_B + 1, CHAR_BUF);
 
-  padBrack4("VIBR", valueVibr);
-  u8g.drawStr(0, DISPLAY_LINE_C + 1, CHAR_BUF);  
+  padBrack4("", valueMotorDst);
+  u8g.drawStr(0, DISPLAY_LINE_C + 1, CHAR_BUF);
 
-  u8g.drawStr(0, 5, "PM 2.5"); 
+  u8g.drawStr(0, 5, "PM 2.5");
   String(valueArrayPm25[valueIndexPm25]).toCharArray(CHAR_BUF, 32);
-  u8g.drawStr(94, 5, CHAR_BUF);  
+  u8g.drawStr(94, 5, CHAR_BUF);
 
 }
