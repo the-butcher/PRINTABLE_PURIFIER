@@ -13,9 +13,11 @@ I built a very simple balancing tool to find the heavier side of the impeller, b
 
 You can also balance by trial and error while in the hub, but this can be lengthy process requiring a lot of patience.
 
-![Step 1](./assembly_11.png)
+![Step 1](./assembly_011a.png)
 
 Insert counterweights into the provided 6mm holes as required until vibration is tolerable when the impeller is powered by the motor and spinning in the hub.
+
+![Step 1](./assembly_011b.png)
 
 ---
 
