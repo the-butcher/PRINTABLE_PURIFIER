@@ -24,5 +24,5 @@ Complete set of parts provided as STL-Files.
 
 ![Purifier](https://github.com/the-butcher/PRINTABLE_PURIFIER/blob/master/purifier_outer.png?raw=true)
 
+To illustrate power of the device, i placed it upside down and let it run at full power. It actually starts to float on it's own airstream.
 https://user-images.githubusercontent.com/84620977/204543808-1679b6d5-8642-4146-9070-1e398686aa09.mov
-
