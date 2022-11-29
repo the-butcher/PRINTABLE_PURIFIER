@@ -24,4 +24,5 @@ Complete set of parts provided as STL-Files.
 
 ![Purifier](https://github.com/the-butcher/PRINTABLE_PURIFIER/blob/master/purifier_outer.png?raw=true)
 
-![Purifier](https://github.com/the-butcher/PRINTABLE_PURIFIER/blob/master/purifier_floating.mov)
+https://user-images.githubusercontent.com/84620977/204543808-1679b6d5-8642-4146-9070-1e398686aa09.mov
+
