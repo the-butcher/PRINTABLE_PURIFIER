@@ -54,7 +54,9 @@ int valueArrayPm25[10];
 int valueHumidity = 0;
 float valueTemperature = 0;
 
-int valueMotorMin = 310;
+// a timestamp where the motor power can be reduced after a startup
+long tsMotorStart = -1;
+int valueMotorMin = 0;
 int valueMotorMax = 511;
 
 // current motor value (on a range from 0-1023), needs to be mapped to valueMotorMin (as of calibration) and valueMotorMax
@@ -121,10 +123,15 @@ void setupMotor() {
   pinMode(PORT____MOTOR_DIR_1, OUTPUT);
   pinMode(PORT____MOTOR_DIR_2, OUTPUT);
 
-  // set motor direction
+  startMotor();
+
+}
+
+void startMotor() {
+  tsMotorStart = millis();
+  valueMotorMin = 310; // have a short period of higher power to ensure proper startup
   digitalWrite(PORT____MOTOR_DIR_1, LOW);
   digitalWrite(PORT____MOTOR_DIR_2, HIGH);
-
 }
 
 /**
@@ -154,8 +161,9 @@ void loop(void) {
 
   readPotentiometer();
 
-  if (millis() > 2000 && valueMotorMin > 290) {
-    valueMotorMin = 290;
+  // after a startup period - settle valueMotorMin
+  if (millis() > tsMotorStart + 2000) {
+    valueMotorMin = 285;
   }
 
   // read dust sensor value
@@ -184,15 +192,18 @@ void readPotentiometer() {
 
 /**
   * from dust sensor and potentiometer value calculate motor value
+  * https://www.desmos.com/calculator/5439cjbsf8
   */
 void calculateMotorValue() {
-  float p = 1000.0f / map(valuePoti, 0, 1023, 200, 5000); // map potentiometer to 1/0.2 -> 1/5.0 (5 -> 0.2)
-  float b = min(valuePm25, 250.0f) / 250.0f; // convert sensor value to 0 -> 1 (mapping 0 to 0, 250 to 1)
-  valueMotorDst = pow(b, p) * 1023;
+  float p = map(valuePoti, 0, 1023, 200, 800) / 1000.0f; // map potentiometer to 0.2 -> 0.8
+  float k = 1/p - 1;
+  float b = min(valuePm25, 500.0f) / 500.0f; // convert sensor value to 0 -> 1 (mapping 0 to 0, 250 to 1)
+  valueMotorDst = pow(b, k) * 1023;
   // increment motor value in small steps to get smooth increase of motor power
   if (valueMotorDst > valueMotorCur) {
-    valueMotorCur = min(valueMotorCur + 3, valueMotorDst);} else if (valueMotorDst < valueMotorCur) {
-    valueMotorCur = max(valueMotorCur - 6, valueMotorDst);
+    valueMotorCur = min(valueMotorCur + min(3, 1 + ((valueMotorDst - valueMotorCur) >> 5)), valueMotorDst);
+  } else if (valueMotorDst < valueMotorCur) {
+    valueMotorCur = max(valueMotorCur - min(12, 1 + ((valueMotorCur - valueMotorDst) >> 5)), valueMotorDst);
   }
 }
 
@@ -316,13 +327,13 @@ void redrawDisplayLoop() {
 
   u8g.setFont(u8g_font_micro);
 
-  padBrack4("GAIN", valuePoti);
+  padBrack4("GAIN", valuePoti + 1);
   u8g.drawStr(0, DISPLAY_LINE_A + 1, CHAR_BUF);
 
-  padBrack4("MOTOR", valueMotorCur);
+  padBrack4("MOTOR", valueMotorCur + 1);
   u8g.drawStr(0, DISPLAY_LINE_B + 1, CHAR_BUF);
 
-  padBrack4("", valueMotorDst);
+  padBrack4("", valueMotorDst + 1);
   u8g.drawStr(0, DISPLAY_LINE_C + 1, CHAR_BUF);
 
   u8g.drawStr(0, 5, "PM 2.5");
