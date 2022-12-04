@@ -124,24 +124,30 @@ module plotPolyhedron2(radius, angle1, offsetDistance1, angle2, offsetDistance2,
 
 // wing portruding out
 // plotPolyhedron1(0, 1, 1, sectionDefOS);
-plotPolyhedron1(36, -1, 1, sectionDefOS);
-
+// plotPolyhedron1(0, -1, 1, sectionDefOS);
+plotPolyhedron2(sectionDefOS[indexOuter][0], 0, -1, 0, 1, 1, sectionDefOS);
+// plotPolyhedron2(sectionDefWN[indexOuter][0], 0, -1, 0, 1, 1, sectionDefWN);
+// plotPolyhedron2(sectionDefOS[indexOuter][0], 0, 1, 36, -1, 16, sectionDefOS);
+// plotPolyhedron2(sectionDefWN[indexOuter][0], 0, 1, 36, -1, 16, sectionDefWN);
 
 // main wing
 // plotPolyhedron1(0, 1, 16, sectionDefWN);
-// plotPolyhedron1(36, -1, 16, sectionDefWN);
+// plotPolyhedron1(0, -1, 16, sectionDefWN);
 
 // wing portruding in
 // plotPolyhedron1(0, 1, 1, sectionDefIS);
-// plotPolyhedron1(36, -1, 1, sectionDefIS);
-
+// plotPolyhedron1(0, -1, 1, sectionDefIS);
+// plotPolyhedron2(sectionDefIS[indexInner][0], 0, -1, 0, 1, 1, sectionDefWN);
+// plotPolyhedron2(sectionDefWN[indexInner][0], 0, -1, 0, 1, 1, sectionDefIS);
+// plotPolyhedron2(sectionDefIS[indexInner][0], 0, 1, 36, -1, 16, sectionDefIS);
+// plotPolyhedron2(sectionDefWN[indexInner][0], 0, 1, 36, -1, 16, sectionDefWN);
 
 // main borders
 // plotPolyhedron2(sectionDefWN[indexInner][0], 0, 1, 36, -1, 16, sectionDefWN);
 // plotPolyhedron2(sectionDefWN[indexOuter][0], 0, 1, 36, -1, 16, sectionDefWN);
 
 // portruded border (outer)
-// plotPolyhedron2(sectionDefOS[indexOuter][0], 0, -1, 0, 1, 1, sectionDefWN);
+// plotPolyhedron2(sectionDefOS[indexOuter][0], 0, -1, 0, 1, 1, sectionDefOS);
 // portruded border (inner)
 // plotPolyhedron2(sectionDefIS[indexInner][0], 0, -1, 0, 1, 1, sectionDefWN);
 
